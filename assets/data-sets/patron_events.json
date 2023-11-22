@@ -1,0 +1,109 @@
+{
+    "Name": "patron_events",
+    "PhysicalTableMap": {
+        "50873ea6-0c3a-4989-97e1-eb740e8a3348": {
+            "CustomSql": {
+                "DataSourceArn": "",
+                "Name": "patron_events",
+                "SqlQuery": "select \n    pe.time_stamp, \n    l.short_name as library_short_name, \n    l.name as library_name, \n    l.location,  \n    l.state, \n    ev.name as event_type \nfrom  \n    patron_events pe, \n    libraries l, \n    circulation_event_types ev \nwhere \n    pe.library_id = l.id and \n    pe.event_type_id = ev.id",
+                "Columns": [
+                    {
+                        "Name": "time_stamp",
+                        "Type": "DATETIME"
+                    },
+                    {
+                        "Name": "library_short_name",
+                        "Type": "STRING"
+                    },
+                    {
+                        "Name": "library_name",
+                        "Type": "STRING"
+                    },
+                    {
+                        "Name": "location",
+                        "Type": "STRING"
+                    },
+                    {
+                        "Name": "state",
+                        "Type": "STRING"
+                    },
+                    {
+                        "Name": "event_type",
+                        "Type": "STRING"
+                    }
+                ]
+            }
+        }
+    },
+    "LogicalTableMap": {
+        "4dc4e51c-76b2-4595-8b3b-1759f76a05c4": {
+            "Alias": "patron_events",
+            "DataTransforms": [
+                {
+                    "ProjectOperation": {
+                        "ProjectedColumns": [
+                            "time_stamp",
+                            "library_short_name",
+                            "library_name",
+                            "location",
+                            "state",
+                            "event_type"
+                        ]
+                    }
+                }
+            ],
+            "Source": {
+                "PhysicalTableId": "50873ea6-0c3a-4989-97e1-eb740e8a3348"
+            }
+        }
+    },
+    "OutputColumns": [
+        {
+            "Name": "time_stamp",
+            "Type": "DATETIME"
+        },
+        {
+            "Name": "library_short_name",
+            "Type": "STRING"
+        },
+        {
+            "Name": "library_name",
+            "Type": "STRING"
+        },
+        {
+            "Name": "location",
+            "Type": "STRING"
+        },
+        {
+            "Name": "state",
+            "Type": "STRING"
+        },
+        {
+            "Name": "event_type",
+            "Type": "STRING"
+        }
+    ],
+    "ImportMode": "DIRECT_QUERY",
+    "ConsumedSpiceCapacityInBytes": 0,
+    "FieldFolders": {},
+    "RowLevelPermissionTagConfiguration": {
+        "Status": "ENABLED",
+        "TagRules": [
+            {
+                "TagKey": "library_name",
+                "ColumnName": "library_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            }
+        ],
+        "TagRuleConfigurations": [
+            [
+                "library_name"
+            ]
+        ]
+    },
+    "DataSetUsageConfiguration": {
+        "DisableUseAsDirectQuerySource": false,
+        "DisableUseAsImportedSource": false
+    }
+}

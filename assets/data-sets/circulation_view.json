@@ -1,0 +1,217 @@
+{
+    "Name": "circulation_view",
+    "PhysicalTableMap": {
+        "25046cd8-e08f-41e0-8af8-5259b64499fd": {
+            "CustomSql": {
+                "DataSourceArn": "",
+                "Name": "circulation_events_view",
+                "SqlQuery": "select \n    ce.time_stamp, \n    l.short_name as libary_short_name, \n    l.name as library_name,\n    l.location as location,\n    et.name as event_type, \n    i.identifier,\n    it.name as identifier_type,\n    c.name as collection_name, \n    ce.title, \n    ce.author,\n    ce.audience,\n    ce.publisher,\n    ce.language,\n    ce.genre,\n    ce.open_access,\n    ce.fiction,\n    ce.distributor,\n    ce.medium\nfrom \n    circulation_events ce,\n    libraries l,\n    collections c,\n    circulation_event_types et,\n    identifiers i,\n    identifier_types it\nwhere \n    ce.library_id = l.id and\n    ce.event_type_id = et.id and\n    ce.collection_id = c.id and\n    ce.identifier_id = i.id and \n    i.identifier_type_id = it.id",
+                "Columns": [
+                    {
+                        "Name": "time_stamp",
+                        "Type": "DATETIME"
+                    },
+                    {
+                        "Name": "libary_short_name",
+                        "Type": "STRING"
+                    },
+                    {
+                        "Name": "library_name",
+                        "Type": "STRING"
+                    },
+                    {
+                        "Name": "location",
+                        "Type": "STRING"
+                    },
+                    {
+                        "Name": "event_type",
+                        "Type": "STRING"
+                    },
+                    {
+                        "Name": "identifier",
+                        "Type": "STRING"
+                    },
+                    {
+                        "Name": "identifier_type",
+                        "Type": "STRING"
+                    },
+                    {
+                        "Name": "collection_name",
+                        "Type": "STRING"
+                    },
+                    {
+                        "Name": "title",
+                        "Type": "STRING"
+                    },
+                    {
+                        "Name": "author",
+                        "Type": "STRING"
+                    },
+                    {
+                        "Name": "audience",
+                        "Type": "STRING"
+                    },
+                    {
+                        "Name": "publisher",
+                        "Type": "STRING"
+                    },
+                    {
+                        "Name": "language",
+                        "Type": "STRING"
+                    },
+                    {
+                        "Name": "genre",
+                        "Type": "STRING"
+                    },
+                    {
+                        "Name": "open_access",
+                        "Type": "BIT"
+                    },
+                    {
+                        "Name": "fiction",
+                        "Type": "BIT"
+                    },
+                    {
+                        "Name": "distributor",
+                        "Type": "STRING"
+                    },
+                    {
+                        "Name": "medium",
+                        "Type": "STRING"
+                    }
+                ]
+            }
+        }
+    },
+    "LogicalTableMap": {
+        "6c80275e-d03d-417c-a8cd-57d93e58129b": {
+            "Alias": "circulation_events_view",
+            "DataTransforms": [
+                {
+                    "ProjectOperation": {
+                        "ProjectedColumns": [
+                            "time_stamp",
+                            "libary_short_name",
+                            "library_name",
+                            "location",
+                            "event_type",
+                            "identifier",
+                            "identifier_type",
+                            "collection_name",
+                            "title",
+                            "author",
+                            "audience",
+                            "publisher",
+                            "language",
+                            "genre",
+                            "open_access",
+                            "fiction",
+                            "distributor",
+                            "medium"
+                        ]
+                    }
+                }
+            ],
+            "Source": {
+                "PhysicalTableId": "25046cd8-e08f-41e0-8af8-5259b64499fd"
+            }
+        }
+    },
+    "OutputColumns": [
+        {
+            "Name": "time_stamp",
+            "Type": "DATETIME"
+        },
+        {
+            "Name": "libary_short_name",
+            "Type": "STRING"
+        },
+        {
+            "Name": "library_name",
+            "Type": "STRING"
+        },
+        {
+            "Name": "location",
+            "Type": "STRING"
+        },
+        {
+            "Name": "event_type",
+            "Type": "STRING"
+        },
+        {
+            "Name": "identifier",
+            "Type": "STRING"
+        },
+        {
+            "Name": "identifier_type",
+            "Type": "STRING"
+        },
+        {
+            "Name": "collection_name",
+            "Type": "STRING"
+        },
+        {
+            "Name": "title",
+            "Type": "STRING"
+        },
+        {
+            "Name": "author",
+            "Type": "STRING"
+        },
+        {
+            "Name": "audience",
+            "Type": "STRING"
+        },
+        {
+            "Name": "publisher",
+            "Type": "STRING"
+        },
+        {
+            "Name": "language",
+            "Type": "STRING"
+        },
+        {
+            "Name": "genre",
+            "Type": "STRING"
+        },
+        {
+            "Name": "open_access",
+            "Type": "INTEGER"
+        },
+        {
+            "Name": "fiction",
+            "Type": "INTEGER"
+        },
+        {
+            "Name": "distributor",
+            "Type": "STRING"
+        },
+        {
+            "Name": "medium",
+            "Type": "STRING"
+        }
+    ],
+    "ImportMode": "DIRECT_QUERY",
+    "ConsumedSpiceCapacityInBytes": 0,
+    "FieldFolders": {},
+    "RowLevelPermissionTagConfiguration": {
+        "Status": "ENABLED",
+        "TagRules": [
+            {
+                "TagKey": "library_name",
+                "ColumnName": "library_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            }
+        ],
+        "TagRuleConfigurations": [
+            [
+                "library_name"
+            ]
+        ]
+    },
+    "DataSetUsageConfiguration": {
+        "DisableUseAsDirectQuerySource": false,
+        "DisableUseAsImportedSource": false
+    }
+}
