@@ -83,11 +83,11 @@
             "Type": "STRING"
         }
     ],
-    "ImportMode": "DIRECT_QUERY",
-    "ConsumedSpiceCapacityInBytes": 0,
+    "ImportMode": "SPICE",
+    "ConsumedSpiceCapacityInBytes": 3678,
     "FieldFolders": {},
     "RowLevelPermissionTagConfiguration": {
-        "Status": "ENABLED",
+        "Status": "DISABLED",
         "TagRules": [
             {
                 "TagKey": "library_name",
