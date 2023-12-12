@@ -195,7 +195,7 @@
     "ConsumedSpiceCapacityInBytes": 1204610,
     "FieldFolders": {},
     "RowLevelPermissionTagConfiguration": {
-        "Status": "DISABLED",
+        "Status": "ENABLED",
         "TagRules": [
             {
                 "TagKey": "library_name",
