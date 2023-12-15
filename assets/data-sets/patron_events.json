@@ -84,10 +84,10 @@
         }
     ],
     "ImportMode": "SPICE",
-    "ConsumedSpiceCapacityInBytes": 3678,
+    "ConsumedSpiceCapacityInBytes": 4703,
     "FieldFolders": {},
     "RowLevelPermissionTagConfiguration": {
-        "Status": "ENABLED",
+        "Status": "DISABLED",
         "TagRules": [
             {
                 "TagKey": "library_name",
