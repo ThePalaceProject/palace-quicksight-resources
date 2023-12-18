@@ -1,15 +1,12 @@
 {
     "RefreshSchedules": [
         {
-            "ScheduleId": "219c0510-7c80-43fc-a921-1639328dd93d",
             "ScheduleFrequency": {
                 "Interval": "DAILY",
                 "Timezone": "America/New_York",
                 "TimeOfTheDay": "23:59"
             },
-            "StartAfterDateTime": "2023-09-28 16:59:00-07:00",
-            "RefreshType": "INCREMENTAL_REFRESH",
-            "Arn": "arn:aws:quicksight:us-west-2:128682227026:dataset/86eb4ca5-9552-4ba6-8b1b-7ef1b9b40f78/refresh-schedule/219c0510-7c80-43fc-a921-1639328dd93d"
+            "RefreshType": "INCREMENTAL_REFRESH"
         }
     ]
 }
