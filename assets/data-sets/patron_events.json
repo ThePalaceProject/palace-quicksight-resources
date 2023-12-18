@@ -87,18 +87,60 @@
     "ConsumedSpiceCapacityInBytes": 4703,
     "FieldFolders": {},
     "RowLevelPermissionTagConfiguration": {
-        "Status": "DISABLED",
+        "Status": "ENABLED",
         "TagRules": [
             {
-                "TagKey": "library_name",
-                "ColumnName": "library_name",
+                "TagKey": "library_short_name_0",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_1",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_2",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_3",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_4",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_5",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_6",
+                "ColumnName": "library_short_name",
                 "TagMultiValueDelimiter": "|",
                 "MatchAllValue": "*"
             }
         ],
         "TagRuleConfigurations": [
             [
-                "library_name"
+                "library_short_name_0",
+                "library_short_name_1",
+                "library_short_name_2",
+                "library_short_name_3",
+                "library_short_name_4",
+                "library_short_name_5",
+                "library_short_name_6"
             ]
         ]
     },
