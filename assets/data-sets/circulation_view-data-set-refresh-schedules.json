@@ -1,0 +1,12 @@
+{
+    "RefreshSchedules": [
+        {
+            "ScheduleFrequency": {
+                "Interval": "DAILY",
+                "Timezone": "America/New_York",
+                "TimeOfTheDay": "23:59"
+            },
+            "RefreshType": "INCREMENTAL_REFRESH"
+        }
+    ]
+}
