@@ -192,7 +192,7 @@
         }
     ],
     "ImportMode": "SPICE",
-    "ConsumedSpiceCapacityInBytes": 1324679,
+    "ConsumedSpiceCapacityInBytes": 1474571,
     "FieldFolders": {},
     "RowLevelPermissionTagConfiguration": {
         "Status": "ENABLED",
