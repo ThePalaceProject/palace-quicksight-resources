@@ -6362,13 +6362,6 @@
             {
                 "Column": {
                     "DataSetIdentifier": "circulation_view",
-                    "ColumnName": "50261c89-721b-43ed-b6aa-143566c4c434"
-                },
-                "Role": "DIMENSION"
-            },
-            {
-                "Column": {
-                    "DataSetIdentifier": "circulation_view",
                     "ColumnName": "Day of Week"
                 },
                 "FormatConfiguration": {
@@ -6383,23 +6376,6 @@
                     }
                 },
                 "Role": "DIMENSION"
-            },
-            {
-                "Column": {
-                    "DataSetIdentifier": "circulation_view",
-                    "ColumnName": "ae0f9f08-0ce6-455e-a491-c855d1e6c286"
-                },
-                "FormatConfiguration": {
-                    "NumberFormatConfiguration": {
-                        "FormatConfiguration": {
-                            "NumberDisplayFormatConfiguration": {
-                                "NullValueFormatConfiguration": {
-                                    "NullString": "null"
-                                }
-                            }
-                        }
-                    }
-                }
             },
             {
                 "Column": {
