@@ -5317,7 +5317,6 @@
                                 "CustomFilterListConfiguration": {
                                     "MatchOperator": "CONTAINS",
                                     "CategoryValues": [
-                                        "Minotaur Test Library"
                                     ],
                                     "NullOption": "NON_NULLS_ONLY"
                                 }
