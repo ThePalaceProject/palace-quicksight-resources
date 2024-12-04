@@ -1,11 +1,11 @@
 {
     "Name": "circulation_view",
     "PhysicalTableMap": {
-        "25046cd8-e08f-41e0-8af8-5259b64499fd": {
+        "5037a5a4-0ba1-470b-b5ef-0eb9e4a42917": {
             "CustomSql": {
                 "DataSourceArn": "",
                 "Name": "circulation_events_view",
-                "SqlQuery": "select \n    ce.time_stamp, \n    l.short_name as libary_short_name, \n    l.name as library_name,\n    l.location as location,\n    et.name as event_type, \n    i.identifier,\n    it.name as identifier_type,\n    c.name as collection_name, \n    ce.title, \n    ce.author,\n    ce.audience,\n    ce.publisher,\n    ce.language,\n    ce.genre,\n    ce.open_access,\n    ce.fiction,\n    ce.distributor,\n    ce.medium\nfrom \n    circulation_events ce,\n    libraries l,\n    collections c,\n    circulation_event_types et,\n    identifiers i,\n    identifier_types it\nwhere \n    ce.library_id = l.id and\n    ce.event_type_id = et.id and\n    ce.collection_id = c.id and\n    ce.identifier_id = i.id and \n    i.identifier_type_id = it.id",
+                "SqlQuery": "select \n    ce.time_stamp, \n    l.short_name as libary_short_name, \n    l.name as library_name,\n    l.location as location,\n    et.name as event_type, \n    i.identifier,\n    it.name as identifier_type,\n    c.name as collection_name, \n    ce.title, \n    ce.author,\n    ce.audience,\n    ce.publisher,\n    ce.language,\n    ce.genre,\n    CASE\n       WHEN ce.open_access = 1 THEN 'yes'\n       WHEN ce.open_access = 0 THEN 'no'\n       ELSE 'unspecified'\n    END as open_access,\n    CASE\n       WHEN ce.fiction = 1 THEN 'fiction'\n       WHEN ce.fiction = 0 THEN 'nonfiction'\n       ELSE 'unspecified'\n    END as fiction,\n    ce.distributor,\n    ce.medium\nfrom \n    circulation_events ce,\n    libraries l,\n    collections c,\n    circulation_event_types et,\n    identifiers i,\n    identifier_types it\nwhere \n    ce.library_id = l.id and\n    ce.event_type_id = et.id and\n    ce.collection_id = c.id and\n    ce.identifier_id = i.id and \n    i.identifier_type_id = it.id",
                 "Columns": [
                     {
                         "Name": "time_stamp",
@@ -65,11 +65,11 @@
                     },
                     {
                         "Name": "open_access",
-                        "Type": "BIT"
+                        "Type": "STRING"
                     },
                     {
                         "Name": "fiction",
-                        "Type": "BIT"
+                        "Type": "STRING"
                     },
                     {
                         "Name": "distributor",
@@ -84,7 +84,7 @@
         }
     },
     "LogicalTableMap": {
-        "6c80275e-d03d-417c-a8cd-57d93e58129b": {
+        "1fddc8ca-0639-4e98-a807-829990c9eb70": {
             "Alias": "circulation_events_view",
             "DataTransforms": [
                 {
@@ -113,7 +113,7 @@
                 }
             ],
             "Source": {
-                "PhysicalTableId": "25046cd8-e08f-41e0-8af8-5259b64499fd"
+                "PhysicalTableId": "5037a5a4-0ba1-470b-b5ef-0eb9e4a42917"
             }
         }
     },
@@ -176,11 +176,11 @@
         },
         {
             "Name": "open_access",
-            "Type": "INTEGER"
+            "Type": "STRING"
         },
         {
             "Name": "fiction",
-            "Type": "INTEGER"
+            "Type": "STRING"
         },
         {
             "Name": "distributor",
@@ -192,7 +192,7 @@
         }
     ],
     "ImportMode": "SPICE",
-    "ConsumedSpiceCapacityInBytes": 1474571,
+    "ConsumedSpiceCapacityInBytes": 1619516442,
     "FieldFolders": {},
     "RowLevelPermissionTagConfiguration": {
         "Status": "ENABLED",

@@ -1,15 +1,19 @@
 {
     "Name": "patron_events",
     "PhysicalTableMap": {
-        "50873ea6-0c3a-4989-97e1-eb740e8a3348": {
+        "7bff0b9c-4864-4c14-ac5c-5fb751f0f48e": {
             "CustomSql": {
                 "DataSourceArn": "",
                 "Name": "patron_events",
-                "SqlQuery": "select \n    pe.time_stamp, \n    l.short_name as library_short_name, \n    l.name as library_name, \n    l.location,  \n    l.state, \n    ev.name as event_type \nfrom  \n    patron_events pe, \n    libraries l, \n    circulation_event_types ev \nwhere \n    pe.library_id = l.id and \n    pe.event_type_id = ev.id",
+                "SqlQuery": "select \n    pe.time_stamp, \n    pe.patron_uuid,\n    l.short_name as library_short_name, \n    l.name as library_name, \n    l.location,  \n    l.state, \n    ev.name as event_type \nfrom  \n    patron_events pe, \n    libraries l, \n    circulation_event_types ev \nwhere \n    pe.library_id = l.id and \n    pe.event_type_id = ev.id",
                 "Columns": [
                     {
                         "Name": "time_stamp",
                         "Type": "DATETIME"
+                    },
+                    {
+                        "Name": "patron_uuid",
+                        "Type": "STRING"
                     },
                     {
                         "Name": "library_short_name",
@@ -36,13 +40,14 @@
         }
     },
     "LogicalTableMap": {
-        "4dc4e51c-76b2-4595-8b3b-1759f76a05c4": {
+        "d42c9db8-b6e9-4774-8324-b9f9d9f58a68": {
             "Alias": "patron_events",
             "DataTransforms": [
                 {
                     "ProjectOperation": {
                         "ProjectedColumns": [
                             "time_stamp",
+                            "patron_uuid",
                             "library_short_name",
                             "library_name",
                             "location",
@@ -53,7 +58,7 @@
                 }
             ],
             "Source": {
-                "PhysicalTableId": "50873ea6-0c3a-4989-97e1-eb740e8a3348"
+                "PhysicalTableId": "7bff0b9c-4864-4c14-ac5c-5fb751f0f48e"
             }
         }
     },
@@ -61,6 +66,10 @@
         {
             "Name": "time_stamp",
             "Type": "DATETIME"
+        },
+        {
+            "Name": "patron_uuid",
+            "Type": "STRING"
         },
         {
             "Name": "library_short_name",
@@ -84,7 +93,7 @@
         }
     ],
     "ImportMode": "SPICE",
-    "ConsumedSpiceCapacityInBytes": 16444,
+    "ConsumedSpiceCapacityInBytes": 73990702,
     "FieldFolders": {},
     "RowLevelPermissionTagConfiguration": {
         "Status": "ENABLED",
