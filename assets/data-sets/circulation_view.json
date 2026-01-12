@@ -238,6 +238,30 @@
                 "ColumnName": "libary_short_name",
                 "TagMultiValueDelimiter": "|",
                 "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_7",
+                "ColumnName": "libary_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_8",
+                "ColumnName": "libary_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_9",
+                "ColumnName": "libary_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_10",
+                "ColumnName": "libary_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
             }
         ],
         "TagRuleConfigurations": [
@@ -248,7 +272,11 @@
                 "library_short_name_3",
                 "library_short_name_4",
                 "library_short_name_5",
-                "library_short_name_6"
+                "library_short_name_6",
+                "library_short_name_7",
+                "library_short_name_8",
+                "library_short_name_9",
+                "library_short_name_10"
             ]
         ]
     },
