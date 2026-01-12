@@ -142,25 +142,25 @@
             },
             {
                 "TagKey": "library_short_name_7",
-                "ColumnName": "libary_short_name",
+                "ColumnName": "library_short_name",
                 "TagMultiValueDelimiter": "|",
                 "MatchAllValue": "*"
             },
             {
                 "TagKey": "library_short_name_8",
-                "ColumnName": "libary_short_name",
+                "ColumnName": "library_short_name",
                 "TagMultiValueDelimiter": "|",
                 "MatchAllValue": "*"
             },
             {
                 "TagKey": "library_short_name_9",
-                "ColumnName": "libary_short_name",
+                "ColumnName": "library_short_name",
                 "TagMultiValueDelimiter": "|",
                 "MatchAllValue": "*"
             },
             {
                 "TagKey": "library_short_name_10",
-                "ColumnName": "libary_short_name",
+                "ColumnName": "library_short_name",
                 "TagMultiValueDelimiter": "|",
                 "MatchAllValue": "*"
             }
