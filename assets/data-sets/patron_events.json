@@ -5,7 +5,7 @@
             "CustomSql": {
                 "DataSourceArn": "",
                 "Name": "patron_events",
-                "SqlQuery": "select \n    pe.time_stamp, \n    pe.patron_uuid,\n    l.short_name as library_short_name, \n    l.name as library_name, \n    l.location,  \n    l.state, \n    ev.name as event_type \nfrom  \n    patron_events pe, \n    libraries l, \n    circulation_event_types ev \nwhere \n    pe.library_id = l.id and \n    pe.event_type_id = ev.id",
+                "SqlQuery": "select \n    pe.time_stamp, \n    pe.patron_uuid,\n    l.short_name as library_short_name, \n    l.name as library_name, \n    l.location,  \n    l.state, \n    ev.name as event_type,\n    ua.value as user_agent\nfrom  \n    patron_events pe, \n    libraries l, \n    circulation_event_types ev, \n    user_agents ua \nwhere \n    pe.library_id = l.id and \n    pe.event_type_id = ev.id and \n    pe.user_agent_id = ua.id",
                 "Columns": [
                     {
                         "Name": "time_stamp",
@@ -34,6 +34,10 @@
                     {
                         "Name": "event_type",
                         "Type": "STRING"
+                    },
+                    {
+                        "Name": "user_agent",
+                        "Type": "STRING"
                     }
                 ]
             }
@@ -52,7 +56,8 @@
                             "library_name",
                             "location",
                             "state",
-                            "event_type"
+                            "event_type",
+                            "user_agent"
                         ]
                     }
                 }
@@ -90,10 +95,14 @@
         {
             "Name": "event_type",
             "Type": "STRING"
+        },
+        {
+            "Name": "user_agent",
+            "Type": "STRING"
         }
     ],
     "ImportMode": "SPICE",
-    "ConsumedSpiceCapacityInBytes": 73990702,
+    "ConsumedSpiceCapacityInBytes": 2113937556,
     "FieldFolders": {},
     "RowLevelPermissionTagConfiguration": {
         "Status": "ENABLED",

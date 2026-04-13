@@ -3,7 +3,7 @@
         {
             "ScheduleFrequency": {
                 "Interval": "DAILY",
-                "Timezone": "America/New_York",
+                "Timezone": "America/Los_Angeles",
                 "TimeOfTheDay": "23:59"
             },
             "RefreshType": "INCREMENTAL_REFRESH"
