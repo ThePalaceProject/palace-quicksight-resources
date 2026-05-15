@@ -172,6 +172,240 @@
                 "ColumnName": "library_short_name",
                 "TagMultiValueDelimiter": "|",
                 "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_11",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_12",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_13",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_14",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_15",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_16",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_17",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_18",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_19",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_20",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_21",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_22",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_23",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_24",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_25",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_26",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_27",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_28",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_29",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_30",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_31",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_32",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_33",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_34",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_35",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_36",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_37",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_38",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_39",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_40",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_41",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_42",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_43",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_44",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_45",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_46",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_47",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_48",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
+            },
+            {
+                "TagKey": "library_short_name_49",
+                "ColumnName": "library_short_name",
+                "TagMultiValueDelimiter": "|",
+                "MatchAllValue": "*"
             }
         ],
         "TagRuleConfigurations": [
@@ -186,7 +420,46 @@
                 "library_short_name_7",
                 "library_short_name_8",
                 "library_short_name_9",
-                "library_short_name_10"
+                "library_short_name_10",
+                "library_short_name_11",
+                "library_short_name_12",
+                "library_short_name_13",
+                "library_short_name_14",
+                "library_short_name_15",
+                "library_short_name_16",
+                "library_short_name_17",
+                "library_short_name_18",
+                "library_short_name_19",
+                "library_short_name_20",
+                "library_short_name_21",
+                "library_short_name_22",
+                "library_short_name_23",
+                "library_short_name_24",
+                "library_short_name_25",
+                "library_short_name_26",
+                "library_short_name_27",
+                "library_short_name_28",
+                "library_short_name_29",
+                "library_short_name_30",
+                "library_short_name_31",
+                "library_short_name_32",
+                "library_short_name_33",
+                "library_short_name_34",
+                "library_short_name_35",
+                "library_short_name_36",
+                "library_short_name_37",
+                "library_short_name_38",
+                "library_short_name_39",
+                "library_short_name_40",
+                "library_short_name_41",
+                "library_short_name_42",
+                "library_short_name_43",
+                "library_short_name_44",
+                "library_short_name_45",
+                "library_short_name_46",
+                "library_short_name_47",
+                "library_short_name_48",
+                "library_short_name_49"
             ]
         ]
     },
