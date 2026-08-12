@@ -3,7 +3,7 @@
         "IncrementalRefresh": {
             "LookbackWindow": {
                 "ColumnName": "time_stamp",
-                "Size": 1,
+                "Size": 2,
                 "SizeUnit": "DAY"
             }
         }
