@@ -17,7 +17,7 @@ Two constraints must hold or dashboards will silently lose data:
 - **The look-back window must be at least 2 days.** Events reach Redshift up to ~27 hours after
   their timestamps (the nightly batch covers the previous day). With a shorter window, rows land
   after every refresh window that covered their timestamps has passed, and they are permanently
-  skipped — this caused a nightly 1–4am gap in all dashboards from May to August 2026.
+  skipped until next full import.
 
 Note that `export-analysis` regenerates these files from the *live* schedules of the account being
 exported from, so keep the authoring account's schedules aligned with these values (or re-check the
