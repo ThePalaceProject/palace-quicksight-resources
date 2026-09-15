@@ -1,5 +1,5 @@
 {
-    "Name": "library-v2",
+    "Name": "library",
     "Definition": {
         "DataSetConfigurations": [
             {
@@ -9299,5 +9299,5 @@
         },
         "Options": {}
     },
-    "TemplateId": "library-v2-template"
+    "TemplateId": "library-template"
 }
