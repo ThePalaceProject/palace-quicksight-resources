@@ -109,9 +109,103 @@
         ],
         "Sheets": [
             {
-                "SheetId": "e5f55624-e692-4412-b827-bd6b135cdff6",
+                "SheetId": "0f9e61e0-3053-41f4-8852-b4aa513cf8ca",
                 "Name": "Start Here!",
-                "Visuals": [],
+                "Visuals": [
+                    {
+                        "LineChartVisual": {
+                            "VisualId": "7148ce2f-14bf-40a7-a16b-b05fd1e5cce2",
+                            "Title": {
+                                "Visibility": "VISIBLE"
+                            },
+                            "Subtitle": {
+                                "Visibility": "VISIBLE"
+                            },
+                            "ChartConfiguration": {
+                                "FieldWells": {
+                                    "LineChartAggregatedFieldWells": {
+                                        "Category": [
+                                            {
+                                                "DateDimensionField": {
+                                                    "FieldId": "1fddc8ca-0639-4e98-a807-829990c9eb70.time_stamp.0.1788988414058",
+                                                    "Column": {
+                                                        "DataSetIdentifier": "circulation_view",
+                                                        "ColumnName": "time_stamp"
+                                                    },
+                                                    "HierarchyId": "1fddc8ca-0639-4e98-a807-829990c9eb70.time_stamp.0.1788988414058"
+                                                }
+                                            }
+                                        ],
+                                        "Values": [],
+                                        "Colors": []
+                                    }
+                                },
+                                "SortConfiguration": {
+                                    "CategorySort": [
+                                        {
+                                            "FieldSort": {
+                                                "FieldId": "1fddc8ca-0639-4e98-a807-829990c9eb70.time_stamp.0.1788988414058",
+                                                "Direction": "DESC"
+                                            }
+                                        }
+                                    ],
+                                    "CategoryItemsLimitConfiguration": {
+                                        "OtherCategories": "INCLUDE"
+                                    },
+                                    "ColorItemsLimitConfiguration": {
+                                        "OtherCategories": "INCLUDE"
+                                    },
+                                    "SmallMultiplesLimitConfiguration": {
+                                        "OtherCategories": "INCLUDE"
+                                    }
+                                },
+                                "Type": "LINE",
+                                "XAxisLabelOptions": {
+                                    "AxisLabelOptions": [
+                                        {
+                                            "CustomLabel": "Date",
+                                            "ApplyTo": {
+                                                "FieldId": "1fddc8ca-0639-4e98-a807-829990c9eb70.time_stamp.0.1788988414058",
+                                                "Column": {
+                                                    "DataSetIdentifier": "circulation_view",
+                                                    "ColumnName": "time_stamp"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                "DataLabels": {
+                                    "Visibility": "HIDDEN",
+                                    "Overlap": "DISABLE_OVERLAP"
+                                },
+                                "Tooltip": {
+                                    "TooltipVisibility": "VISIBLE",
+                                    "SelectedTooltipType": "DETAILED",
+                                    "FieldBasedTooltip": {
+                                        "AggregationVisibility": "HIDDEN",
+                                        "TooltipTitleType": "PRIMARY_VALUE",
+                                        "TooltipFields": [
+                                            {
+                                                "FieldTooltipItem": {
+                                                    "FieldId": "1fddc8ca-0639-4e98-a807-829990c9eb70.time_stamp.0.1788988414058",
+                                                    "Visibility": "VISIBLE"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            "Actions": [],
+                            "ColumnHierarchies": [
+                                {
+                                    "DateTimeHierarchy": {
+                                        "HierarchyId": "1fddc8ca-0639-4e98-a807-829990c9eb70.time_stamp.0.1788988414058"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ],
                 "TextBoxes": [
                     {
                         "SheetTextBoxId": "b23a0eb8-3e0a-4082-89f8-4be63d1ca2dc",
@@ -130,6 +224,12 @@
                                         "ColumnSpan": 36,
                                         "RowIndex": 0,
                                         "RowSpan": 10
+                                    },
+                                    {
+                                        "ElementId": "7148ce2f-14bf-40a7-a16b-b05fd1e5cce2",
+                                        "ElementType": "VISUAL",
+                                        "ColumnSpan": 18,
+                                        "RowSpan": 12
                                     }
                                 ],
                                 "CanvasSizeOptions": {
@@ -145,7 +245,7 @@
                 "ContentType": "INTERACTIVE"
             },
             {
-                "SheetId": "ab9ecee7-7bcd-40ef-9e5c-7fe6bd077bb4",
+                "SheetId": "241e6475-e26d-44af-a04a-259c48436f03",
                 "Name": "Patron Details",
                 "FilterControls": [
                     {
@@ -260,7 +360,7 @@
                 "Visuals": [
                     {
                         "TableVisual": {
-                            "VisualId": "564f319b-4e65-4322-bf98-332b7ba744e8",
+                            "VisualId": "3ea30588-b7e3-4bbb-b9d8-fde9074633b8",
                             "Title": {
                                 "Visibility": "HIDDEN"
                             },
@@ -328,7 +428,7 @@
                     },
                     {
                         "TableVisual": {
-                            "VisualId": "c99f855c-ac26-42b3-ac91-1622261f5396",
+                            "VisualId": "0733418a-0708-4a7c-9f15-0fd9c698b47a",
                             "Title": {
                                 "Visibility": "HIDDEN"
                             },
@@ -396,7 +496,7 @@
                     },
                     {
                         "KPIVisual": {
-                            "VisualId": "3ad1d3fe-839f-466d-a26d-d5fb69838817",
+                            "VisualId": "9d2fab47-2261-4e5a-9866-518723ab7ae5",
                             "Title": {
                                 "Visibility": "VISIBLE",
                                 "FormatText": {
@@ -431,7 +531,7 @@
                     },
                     {
                         "KPIVisual": {
-                            "VisualId": "f2760075-c462-4112-b659-d7ae349fb202",
+                            "VisualId": "b22f360c-6618-4da8-9209-d3e99e9a7136",
                             "Title": {
                                 "Visibility": "VISIBLE",
                                 "FormatText": {
@@ -462,6 +562,77 @@
                             },
                             "Actions": [],
                             "ColumnHierarchies": []
+                        }
+                    },
+                    {
+                        "LineChartVisual": {
+                            "VisualId": "d78c06ff-d657-4f6d-b54e-1c83433d2e3d",
+                            "Title": {
+                                "Visibility": "VISIBLE"
+                            },
+                            "Subtitle": {
+                                "Visibility": "VISIBLE"
+                            },
+                            "ChartConfiguration": {
+                                "FieldWells": {
+                                    "LineChartAggregatedFieldWells": {
+                                        "Category": [
+                                            {
+                                                "DateDimensionField": {
+                                                    "FieldId": "d42c9db8-b6e9-4774-8324-b9f9d9f58a68.time_stamp.0.1788987047901",
+                                                    "Column": {
+                                                        "DataSetIdentifier": "patron_events",
+                                                        "ColumnName": "time_stamp"
+                                                    },
+                                                    "HierarchyId": "d42c9db8-b6e9-4774-8324-b9f9d9f58a68.time_stamp.0.1788987047901"
+                                                }
+                                            }
+                                        ],
+                                        "Values": [],
+                                        "Colors": []
+                                    }
+                                },
+                                "SortConfiguration": {
+                                    "CategoryItemsLimitConfiguration": {
+                                        "OtherCategories": "INCLUDE"
+                                    },
+                                    "ColorItemsLimitConfiguration": {
+                                        "OtherCategories": "INCLUDE"
+                                    },
+                                    "SmallMultiplesLimitConfiguration": {
+                                        "OtherCategories": "INCLUDE"
+                                    }
+                                },
+                                "Type": "LINE",
+                                "DataLabels": {
+                                    "Visibility": "HIDDEN",
+                                    "Overlap": "DISABLE_OVERLAP"
+                                },
+                                "Tooltip": {
+                                    "TooltipVisibility": "VISIBLE",
+                                    "SelectedTooltipType": "DETAILED",
+                                    "FieldBasedTooltip": {
+                                        "AggregationVisibility": "HIDDEN",
+                                        "TooltipTitleType": "PRIMARY_VALUE",
+                                        "TooltipFields": [
+                                            {
+                                                "FieldTooltipItem": {
+                                                    "FieldId": "d42c9db8-b6e9-4774-8324-b9f9d9f58a68.time_stamp.0.1788987047901",
+                                                    "Visibility": "VISIBLE"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            "Actions": [],
+                            "ColumnHierarchies": [
+                                {
+                                    "DateTimeHierarchy": {
+                                        "HierarchyId": "d42c9db8-b6e9-4774-8324-b9f9d9f58a68.time_stamp.0.1788987047901"
+                                    }
+                                }
+                            ]
                         }
                     }
                 ],
@@ -497,7 +668,7 @@
                                         "RowSpan": 3
                                     },
                                     {
-                                        "ElementId": "f2760075-c462-4112-b659-d7ae349fb202",
+                                        "ElementId": "b22f360c-6618-4da8-9209-d3e99e9a7136",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 0,
                                         "ColumnSpan": 7,
@@ -521,7 +692,7 @@
                                         "RowSpan": 3
                                     },
                                     {
-                                        "ElementId": "3ad1d3fe-839f-466d-a26d-d5fb69838817",
+                                        "ElementId": "9d2fab47-2261-4e5a-9866-518723ab7ae5",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 0,
                                         "ColumnSpan": 7,
@@ -545,7 +716,7 @@
                                         "RowSpan": 3
                                     },
                                     {
-                                        "ElementId": "c99f855c-ac26-42b3-ac91-1622261f5396",
+                                        "ElementId": "0733418a-0708-4a7c-9f15-0fd9c698b47a",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 0,
                                         "ColumnSpan": 7,
@@ -569,7 +740,7 @@
                                         "RowSpan": 3
                                     },
                                     {
-                                        "ElementId": "564f319b-4e65-4322-bf98-332b7ba744e8",
+                                        "ElementId": "3ea30588-b7e3-4bbb-b9d8-fde9074633b8",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 0,
                                         "ColumnSpan": 7,
@@ -583,6 +754,12 @@
                                         "ColumnSpan": 6,
                                         "RowIndex": 26,
                                         "RowSpan": 3
+                                    },
+                                    {
+                                        "ElementId": "d78c06ff-d657-4f6d-b54e-1c83433d2e3d",
+                                        "ElementType": "VISUAL",
+                                        "ColumnSpan": 18,
+                                        "RowSpan": 12
                                     }
                                 ],
                                 "CanvasSizeOptions": {
@@ -616,7 +793,7 @@
                 "ContentType": "INTERACTIVE"
             },
             {
-                "SheetId": "afac0b4d-86e9-4039-befe-3ad767a0bdec",
+                "SheetId": "f9feca83-db61-4640-80c3-2d89500ce7f1",
                 "Name": "Current Circulation",
                 "FilterControls": [
                     {
@@ -647,7 +824,7 @@
                 "Visuals": [
                     {
                         "KPIVisual": {
-                            "VisualId": "b9889eaa-ac7a-4343-9b4d-85da1c0ba7f5",
+                            "VisualId": "a34a79a7-1347-4c73-a660-7706256bbf57",
                             "Title": {
                                 "Visibility": "VISIBLE",
                                 "FormatText": {
@@ -689,7 +866,7 @@
                     },
                     {
                         "KPIVisual": {
-                            "VisualId": "039b4180-a0b3-442a-8c0b-0ddaef416d9c",
+                            "VisualId": "63ff94b9-76e1-4c56-8b79-55b3e554a82b",
                             "Title": {
                                 "Visibility": "VISIBLE",
                                 "FormatText": {
@@ -731,7 +908,7 @@
                     },
                     {
                         "KPIVisual": {
-                            "VisualId": "196c96e8-a237-41ec-be71-092e42ff0a6a",
+                            "VisualId": "ee9b2c42-a404-4689-96d2-604ed335d850",
                             "Title": {
                                 "Visibility": "VISIBLE",
                                 "FormatText": {
@@ -792,7 +969,7 @@
                     },
                     {
                         "KPIVisual": {
-                            "VisualId": "ee8b44a4-c759-4234-9213-5a51745737f1",
+                            "VisualId": "de1c6469-57e9-4ec0-8a50-5411a583d454",
                             "Title": {
                                 "Visibility": "VISIBLE",
                                 "FormatText": {
@@ -834,7 +1011,7 @@
                     },
                     {
                         "KPIVisual": {
-                            "VisualId": "22cbe1a4-ebfa-4f17-8cc0-13ba89b853c2",
+                            "VisualId": "304270dd-3327-4f74-8500-9d95143eb5ad",
                             "Title": {
                                 "Visibility": "VISIBLE",
                                 "FormatText": {
@@ -876,7 +1053,7 @@
                     },
                     {
                         "InsightVisual": {
-                            "VisualId": "ec1033cd-2abf-49a6-9fa3-89a3ee9e04b9",
+                            "VisualId": "03cb2c7f-d7cf-4b79-9df2-9b54f44749f6",
                             "Title": {
                                 "Visibility": "HIDDEN",
                                 "FormatText": {
@@ -890,7 +1067,7 @@
                                 "Computations": [
                                     {
                                         "TopBottomRanked": {
-                                            "ComputationId": "cc19ab72-69c6-445e-85e6-a117815026bd",
+                                            "ComputationId": "fd05f293-705f-4c96-b419-35a1baff6bd3",
                                             "Name": "Top",
                                             "Category": {
                                                 "CategoricalDimensionField": {
@@ -947,7 +1124,7 @@
                     },
                     {
                         "PivotTableVisual": {
-                            "VisualId": "62e259c0-bdf0-49ff-ac94-92a6817a06cf",
+                            "VisualId": "f09e7e4f-1325-41b5-85f1-04682661630e",
                             "Title": {
                                 "Visibility": "VISIBLE",
                                 "FormatText": {
@@ -1127,7 +1304,7 @@
                     },
                     {
                         "KPIVisual": {
-                            "VisualId": "a4fa079b-5e17-4c11-a25f-8fe29d7a27bb",
+                            "VisualId": "dec2892f-499e-41ca-9740-7f5dec5289b1",
                             "Title": {
                                 "Visibility": "VISIBLE",
                                 "FormatText": {
@@ -1169,7 +1346,7 @@
                     },
                     {
                         "KPIVisual": {
-                            "VisualId": "818b93c1-8e23-41f1-a01e-e1003dd696c7",
+                            "VisualId": "b6fe11c4-7499-4b15-92b1-b80cf3a32232",
                             "Title": {
                                 "Visibility": "VISIBLE",
                                 "FormatText": {
@@ -1232,7 +1409,7 @@
                     },
                     {
                         "BarChartVisual": {
-                            "VisualId": "38001ad0-8aea-403c-b2f9-87c5f98de1d3",
+                            "VisualId": "bc00ebed-f119-41b3-ad62-0fa8a543d350",
                             "Title": {
                                 "Visibility": "VISIBLE",
                                 "FormatText": {
@@ -1365,7 +1542,7 @@
                     },
                     {
                         "KPIVisual": {
-                            "VisualId": "ee655db9-2093-4a5c-b24b-cb60d2ded6df",
+                            "VisualId": "71b691a7-dbea-41bd-977e-4240b423f9a7",
                             "Title": {
                                 "Visibility": "VISIBLE",
                                 "FormatText": {
@@ -1407,7 +1584,7 @@
                     },
                     {
                         "PivotTableVisual": {
-                            "VisualId": "7db9a003-b414-43ae-a792-1af77bc34a25",
+                            "VisualId": "1829e03d-9bdf-420f-addb-77a87de1d19c",
                             "Title": {
                                 "Visibility": "VISIBLE",
                                 "FormatText": {
@@ -1587,7 +1764,7 @@
                     },
                     {
                         "LineChartVisual": {
-                            "VisualId": "a371e471-ad61-4853-a1c6-139153662cef",
+                            "VisualId": "e064684b-7e63-4145-8286-b4b137dbe1f6",
                             "Title": {
                                 "Visibility": "VISIBLE",
                                 "FormatText": {
@@ -1606,12 +1783,12 @@
                                         "Category": [
                                             {
                                                 "DateDimensionField": {
-                                                    "FieldId": "afdf6e9e-6ca5-491f-9dd6-7ffbc2431e2b.0.1676920506247",
+                                                    "FieldId": "1fddc8ca-0639-4e98-a807-829990c9eb70.time_stamp.2.1788987246323",
                                                     "Column": {
                                                         "DataSetIdentifier": "circulation_view",
-                                                        "ColumnName": "LocalTime"
+                                                        "ColumnName": "time_stamp"
                                                     },
-                                                    "HierarchyId": "afdf6e9e-6ca5-491f-9dd6-7ffbc2431e2b.0.1676920506247"
+                                                    "HierarchyId": "1fddc8ca-0639-4e98-a807-829990c9eb70.time_stamp.2.1788987246323"
                                                 }
                                             }
                                         ],
@@ -1649,7 +1826,7 @@
                                     "CategorySort": [
                                         {
                                             "FieldSort": {
-                                                "FieldId": "afdf6e9e-6ca5-491f-9dd6-7ffbc2431e2b.0.1676920506247",
+                                                "FieldId": "1fddc8ca-0639-4e98-a807-829990c9eb70.time_stamp.2.1788987246323",
                                                 "Direction": "DESC"
                                             }
                                         }
@@ -1670,10 +1847,10 @@
                                         {
                                             "CustomLabel": "Date",
                                             "ApplyTo": {
-                                                "FieldId": "afdf6e9e-6ca5-491f-9dd6-7ffbc2431e2b.0.1676920506247",
+                                                "FieldId": "1fddc8ca-0639-4e98-a807-829990c9eb70.time_stamp.2.1788987246323",
                                                 "Column": {
                                                     "DataSetIdentifier": "circulation_view",
-                                                    "ColumnName": "LocalTime"
+                                                    "ColumnName": "time_stamp"
                                                 }
                                             }
                                         }
@@ -1726,12 +1903,6 @@
                                         "TooltipFields": [
                                             {
                                                 "FieldTooltipItem": {
-                                                    "FieldId": "afdf6e9e-6ca5-491f-9dd6-7ffbc2431e2b.0.1676920506247",
-                                                    "Visibility": "VISIBLE"
-                                                }
-                                            },
-                                            {
-                                                "FieldTooltipItem": {
                                                     "FieldId": "e59682ba-8100-448f-b5e6-9a04fd49d7a7.medium.1.1676920520291",
                                                     "Label": "Format",
                                                     "Visibility": "VISIBLE"
@@ -1743,6 +1914,12 @@
                                                     "Label": "Checkouts",
                                                     "Visibility": "VISIBLE"
                                                 }
+                                            },
+                                            {
+                                                "FieldTooltipItem": {
+                                                    "FieldId": "1fddc8ca-0639-4e98-a807-829990c9eb70.time_stamp.2.1788987246323",
+                                                    "Visibility": "VISIBLE"
+                                                }
                                             }
                                         ]
                                     }
@@ -1752,7 +1929,7 @@
                             "ColumnHierarchies": [
                                 {
                                     "DateTimeHierarchy": {
-                                        "HierarchyId": "afdf6e9e-6ca5-491f-9dd6-7ffbc2431e2b.0.1676920506247"
+                                        "HierarchyId": "1fddc8ca-0639-4e98-a807-829990c9eb70.time_stamp.2.1788987246323"
                                     }
                                 }
                             ]
@@ -1760,7 +1937,7 @@
                     },
                     {
                         "InsightVisual": {
-                            "VisualId": "7c4a6ada-5ea3-4a8e-ac16-518424222fb9",
+                            "VisualId": "e1ae8746-4d05-44d7-8d5c-1766a1561515",
                             "Title": {
                                 "Visibility": "HIDDEN",
                                 "FormatText": {
@@ -1774,7 +1951,7 @@
                                 "Computations": [
                                     {
                                         "TopBottomRanked": {
-                                            "ComputationId": "7fdaf4e0-5c4b-46c0-8369-9146951510ad",
+                                            "ComputationId": "060e5ee4-b3f4-4310-b23c-14dd009e5330",
                                             "Name": "Top",
                                             "Category": {
                                                 "CategoricalDimensionField": {
@@ -1810,7 +1987,7 @@
                     },
                     {
                         "PivotTableVisual": {
-                            "VisualId": "f8828519-c466-46fa-a87d-b92c78eff190",
+                            "VisualId": "0c85cc02-df04-473d-ad7c-9c11c1e5fffb",
                             "Title": {
                                 "Visibility": "VISIBLE"
                             },
@@ -1959,7 +2136,7 @@
                                         "RowSpan": 3
                                     },
                                     {
-                                        "ElementId": "039b4180-a0b3-442a-8c0b-0ddaef416d9c",
+                                        "ElementId": "63ff94b9-76e1-4c56-8b79-55b3e554a82b",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 0,
                                         "ColumnSpan": 5,
@@ -1967,7 +2144,7 @@
                                         "RowSpan": 3
                                     },
                                     {
-                                        "ElementId": "ee655db9-2093-4a5c-b24b-cb60d2ded6df",
+                                        "ElementId": "71b691a7-dbea-41bd-977e-4240b423f9a7",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 6,
                                         "ColumnSpan": 5,
@@ -1975,7 +2152,7 @@
                                         "RowSpan": 3
                                     },
                                     {
-                                        "ElementId": "818b93c1-8e23-41f1-a01e-e1003dd696c7",
+                                        "ElementId": "b6fe11c4-7499-4b15-92b1-b80cf3a32232",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 12,
                                         "ColumnSpan": 5,
@@ -1983,7 +2160,7 @@
                                         "RowSpan": 3
                                     },
                                     {
-                                        "ElementId": "a4fa079b-5e17-4c11-a25f-8fe29d7a27bb",
+                                        "ElementId": "dec2892f-499e-41ca-9740-7f5dec5289b1",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 18,
                                         "ColumnSpan": 6,
@@ -1991,7 +2168,7 @@
                                         "RowSpan": 3
                                     },
                                     {
-                                        "ElementId": "b9889eaa-ac7a-4343-9b4d-85da1c0ba7f5",
+                                        "ElementId": "a34a79a7-1347-4c73-a660-7706256bbf57",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 0,
                                         "ColumnSpan": 5,
@@ -1999,7 +2176,7 @@
                                         "RowSpan": 3
                                     },
                                     {
-                                        "ElementId": "22cbe1a4-ebfa-4f17-8cc0-13ba89b853c2",
+                                        "ElementId": "304270dd-3327-4f74-8500-9d95143eb5ad",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 6,
                                         "ColumnSpan": 5,
@@ -2007,7 +2184,7 @@
                                         "RowSpan": 3
                                     },
                                     {
-                                        "ElementId": "ee8b44a4-c759-4234-9213-5a51745737f1",
+                                        "ElementId": "de1c6469-57e9-4ec0-8a50-5411a583d454",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 12,
                                         "ColumnSpan": 5,
@@ -2015,7 +2192,7 @@
                                         "RowSpan": 3
                                     },
                                     {
-                                        "ElementId": "196c96e8-a237-41ec-be71-092e42ff0a6a",
+                                        "ElementId": "ee9b2c42-a404-4689-96d2-604ed335d850",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 18,
                                         "ColumnSpan": 6,
@@ -2023,7 +2200,7 @@
                                         "RowSpan": 3
                                     },
                                     {
-                                        "ElementId": "a371e471-ad61-4853-a1c6-139153662cef",
+                                        "ElementId": "e064684b-7e63-4145-8286-b4b137dbe1f6",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 0,
                                         "ColumnSpan": 36,
@@ -2031,7 +2208,7 @@
                                         "RowSpan": 14
                                     },
                                     {
-                                        "ElementId": "7db9a003-b414-43ae-a792-1af77bc34a25",
+                                        "ElementId": "1829e03d-9bdf-420f-addb-77a87de1d19c",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 0,
                                         "ColumnSpan": 8,
@@ -2039,7 +2216,7 @@
                                         "RowSpan": 7
                                     },
                                     {
-                                        "ElementId": "38001ad0-8aea-403c-b2f9-87c5f98de1d3",
+                                        "ElementId": "bc00ebed-f119-41b3-ad62-0fa8a543d350",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 8,
                                         "ColumnSpan": 28,
@@ -2047,7 +2224,7 @@
                                         "RowSpan": 14
                                     },
                                     {
-                                        "ElementId": "62e259c0-bdf0-49ff-ac94-92a6817a06cf",
+                                        "ElementId": "f09e7e4f-1325-41b5-85f1-04682661630e",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 0,
                                         "ColumnSpan": 8,
@@ -2055,7 +2232,7 @@
                                         "RowSpan": 7
                                     },
                                     {
-                                        "ElementId": "7c4a6ada-5ea3-4a8e-ac16-518424222fb9",
+                                        "ElementId": "e1ae8746-4d05-44d7-8d5c-1766a1561515",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 0,
                                         "ColumnSpan": 16,
@@ -2063,7 +2240,7 @@
                                         "RowSpan": 8
                                     },
                                     {
-                                        "ElementId": "ec1033cd-2abf-49a6-9fa3-89a3ee9e04b9",
+                                        "ElementId": "03cb2c7f-d7cf-4b79-9df2-9b54f44749f6",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 20,
                                         "ColumnSpan": 16,
@@ -2071,7 +2248,7 @@
                                         "RowSpan": 8
                                     },
                                     {
-                                        "ElementId": "f8828519-c466-46fa-a87d-b92c78eff190",
+                                        "ElementId": "0c85cc02-df04-473d-ad7c-9c11c1e5fffb",
                                         "ElementType": "VISUAL",
                                         "ColumnSpan": 18,
                                         "RowSpan": 12
@@ -2108,7 +2285,7 @@
                 "ContentType": "INTERACTIVE"
             },
             {
-                "SheetId": "a75112fe-5300-4c43-89b7-fa09219f46c0",
+                "SheetId": "09dd174f-df18-4a3e-9f0a-5173599b80c2",
                 "Name": "Year to Date Circulation",
                 "FilterControls": [
                     {
@@ -2139,7 +2316,7 @@
                 "Visuals": [
                     {
                         "KPIVisual": {
-                            "VisualId": "ba0bf296-2c34-4868-98a4-a033b65b0702",
+                            "VisualId": "73cc2b06-888e-4a43-86c0-6b8fe1ee823a",
                             "Title": {
                                 "Visibility": "VISIBLE",
                                 "FormatText": {
@@ -2181,7 +2358,7 @@
                     },
                     {
                         "KPIVisual": {
-                            "VisualId": "6e290a11-c96a-47e3-b550-be5a9927d38e",
+                            "VisualId": "8363057a-d7d9-4c80-bff2-eb7c03efb4a6",
                             "Title": {
                                 "Visibility": "VISIBLE",
                                 "FormatText": {
@@ -2223,7 +2400,7 @@
                     },
                     {
                         "KPIVisual": {
-                            "VisualId": "daf3e5d6-6d78-4294-a9ce-3994c3425d19",
+                            "VisualId": "37790f17-713c-4fc7-b61a-166581182264",
                             "Title": {
                                 "Visibility": "VISIBLE",
                                 "FormatText": {
@@ -2284,7 +2461,7 @@
                     },
                     {
                         "KPIVisual": {
-                            "VisualId": "6948fcb2-3517-42c4-b3a2-ed37b9e8e3cb",
+                            "VisualId": "34a7b002-d11f-4608-99b4-069163413354",
                             "Title": {
                                 "Visibility": "VISIBLE",
                                 "FormatText": {
@@ -2326,7 +2503,7 @@
                     },
                     {
                         "KPIVisual": {
-                            "VisualId": "840fa534-b47e-4ac6-ac8a-356f7ddc19c5",
+                            "VisualId": "24babec6-7661-43f6-a25d-d440d5220f75",
                             "Title": {
                                 "Visibility": "VISIBLE",
                                 "FormatText": {
@@ -2368,7 +2545,7 @@
                     },
                     {
                         "InsightVisual": {
-                            "VisualId": "9a36c77d-0906-4ac1-ab61-461da3a4e8c5",
+                            "VisualId": "9d0d9438-26e9-4048-a578-05b55b9381c0",
                             "Title": {
                                 "Visibility": "HIDDEN",
                                 "FormatText": {
@@ -2382,7 +2559,7 @@
                                 "Computations": [
                                     {
                                         "TopBottomRanked": {
-                                            "ComputationId": "73487b2f-95a1-4667-bf47-9ca44d01b018",
+                                            "ComputationId": "c4200509-6dbf-423a-9060-702ff23ed14f",
                                             "Name": "Top",
                                             "Category": {
                                                 "CategoricalDimensionField": {
@@ -2439,7 +2616,7 @@
                     },
                     {
                         "PivotTableVisual": {
-                            "VisualId": "96eaf9a2-af4a-497f-9dd0-9912dc8aedf0",
+                            "VisualId": "01b3ac4d-1aa9-41a0-bd59-c8fe762e8d2b",
                             "Title": {
                                 "Visibility": "VISIBLE",
                                 "FormatText": {
@@ -2627,7 +2804,7 @@
                     },
                     {
                         "KPIVisual": {
-                            "VisualId": "86210124-6711-4ffa-9654-9669ee169996",
+                            "VisualId": "f8acc47d-95fa-46a7-8151-f1e229724ca4",
                             "Title": {
                                 "Visibility": "VISIBLE",
                                 "FormatText": {
@@ -2669,7 +2846,7 @@
                     },
                     {
                         "KPIVisual": {
-                            "VisualId": "6e65d8e7-2c48-4638-b4b0-928fd9f75135",
+                            "VisualId": "13eee751-b123-4923-aa3f-0a2d60ac2d17",
                             "Title": {
                                 "Visibility": "VISIBLE",
                                 "FormatText": {
@@ -2732,7 +2909,7 @@
                     },
                     {
                         "BarChartVisual": {
-                            "VisualId": "1e83b96e-ca39-40bc-ba9a-5767e3732dc7",
+                            "VisualId": "b6c2fcbd-4e70-43d7-91bc-581cb006a295",
                             "Title": {
                                 "Visibility": "VISIBLE",
                                 "FormatText": {
@@ -2864,7 +3041,7 @@
                     },
                     {
                         "KPIVisual": {
-                            "VisualId": "97e63a7d-d385-47f8-8a0f-e821ca0a4043",
+                            "VisualId": "d4afacd5-fbd7-4d55-8ad7-9ac54b17129b",
                             "Title": {
                                 "Visibility": "VISIBLE",
                                 "FormatText": {
@@ -2906,7 +3083,7 @@
                     },
                     {
                         "PivotTableVisual": {
-                            "VisualId": "ca7f25f2-8d81-4116-a8fd-054a26345d19",
+                            "VisualId": "a92b073e-f795-447f-995d-b53b98e0d9b3",
                             "Title": {
                                 "Visibility": "VISIBLE",
                                 "FormatText": {
@@ -3086,7 +3263,7 @@
                     },
                     {
                         "LineChartVisual": {
-                            "VisualId": "4cc96912-8857-486d-8ee9-dab7828f807b",
+                            "VisualId": "61c97745-30c5-4ae3-9f2a-168a77f7e75f",
                             "Title": {
                                 "Visibility": "VISIBLE",
                                 "FormatText": {
@@ -3105,12 +3282,12 @@
                                         "Category": [
                                             {
                                                 "DateDimensionField": {
-                                                    "FieldId": "afdf6e9e-6ca5-491f-9dd6-7ffbc2431e2b.0.1676920506247",
+                                                    "FieldId": "1fddc8ca-0639-4e98-a807-829990c9eb70.time_stamp.2.1788987388097",
                                                     "Column": {
                                                         "DataSetIdentifier": "circulation_view",
-                                                        "ColumnName": "LocalTime"
+                                                        "ColumnName": "time_stamp"
                                                     },
-                                                    "HierarchyId": "afdf6e9e-6ca5-491f-9dd6-7ffbc2431e2b.0.1676920506247"
+                                                    "HierarchyId": "1fddc8ca-0639-4e98-a807-829990c9eb70.time_stamp.2.1788987388097"
                                                 }
                                             }
                                         ],
@@ -3148,7 +3325,7 @@
                                     "CategorySort": [
                                         {
                                             "FieldSort": {
-                                                "FieldId": "afdf6e9e-6ca5-491f-9dd6-7ffbc2431e2b.0.1676920506247",
+                                                "FieldId": "1fddc8ca-0639-4e98-a807-829990c9eb70.time_stamp.2.1788987388097",
                                                 "Direction": "DESC"
                                             }
                                         }
@@ -3169,10 +3346,10 @@
                                         {
                                             "CustomLabel": "Date",
                                             "ApplyTo": {
-                                                "FieldId": "afdf6e9e-6ca5-491f-9dd6-7ffbc2431e2b.0.1676920506247",
+                                                "FieldId": "1fddc8ca-0639-4e98-a807-829990c9eb70.time_stamp.2.1788987388097",
                                                 "Column": {
                                                     "DataSetIdentifier": "circulation_view",
-                                                    "ColumnName": "LocalTime"
+                                                    "ColumnName": "time_stamp"
                                                 }
                                             }
                                         }
@@ -3225,12 +3402,6 @@
                                         "TooltipFields": [
                                             {
                                                 "FieldTooltipItem": {
-                                                    "FieldId": "afdf6e9e-6ca5-491f-9dd6-7ffbc2431e2b.0.1676920506247",
-                                                    "Visibility": "VISIBLE"
-                                                }
-                                            },
-                                            {
-                                                "FieldTooltipItem": {
                                                     "FieldId": "e59682ba-8100-448f-b5e6-9a04fd49d7a7.medium.1.1676920520291",
                                                     "Label": "Format",
                                                     "Visibility": "VISIBLE"
@@ -3242,6 +3413,12 @@
                                                     "Label": "Checkouts",
                                                     "Visibility": "VISIBLE"
                                                 }
+                                            },
+                                            {
+                                                "FieldTooltipItem": {
+                                                    "FieldId": "1fddc8ca-0639-4e98-a807-829990c9eb70.time_stamp.2.1788987388097",
+                                                    "Visibility": "VISIBLE"
+                                                }
                                             }
                                         ]
                                     }
@@ -3251,7 +3428,7 @@
                             "ColumnHierarchies": [
                                 {
                                     "DateTimeHierarchy": {
-                                        "HierarchyId": "afdf6e9e-6ca5-491f-9dd6-7ffbc2431e2b.0.1676920506247"
+                                        "HierarchyId": "1fddc8ca-0639-4e98-a807-829990c9eb70.time_stamp.2.1788987388097"
                                     }
                                 }
                             ]
@@ -3259,7 +3436,7 @@
                     },
                     {
                         "InsightVisual": {
-                            "VisualId": "57cf71a1-a41b-460f-9bfc-428620c0373b",
+                            "VisualId": "347e0e3a-fc7b-4bb4-b48d-742be1ea1e62",
                             "Title": {
                                 "Visibility": "HIDDEN",
                                 "FormatText": {
@@ -3273,7 +3450,7 @@
                                 "Computations": [
                                     {
                                         "TopBottomRanked": {
-                                            "ComputationId": "532816d0-bef0-4b5d-b11a-8b7386c02df4",
+                                            "ComputationId": "f951ae3f-3fc9-4141-a2a3-865eca05ec58",
                                             "Name": "Top",
                                             "Category": {
                                                 "CategoricalDimensionField": {
@@ -3328,7 +3505,7 @@
                                         "RowSpan": 3
                                     },
                                     {
-                                        "ElementId": "6e290a11-c96a-47e3-b550-be5a9927d38e",
+                                        "ElementId": "8363057a-d7d9-4c80-bff2-eb7c03efb4a6",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 0,
                                         "ColumnSpan": 5,
@@ -3336,7 +3513,7 @@
                                         "RowSpan": 3
                                     },
                                     {
-                                        "ElementId": "97e63a7d-d385-47f8-8a0f-e821ca0a4043",
+                                        "ElementId": "d4afacd5-fbd7-4d55-8ad7-9ac54b17129b",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 6,
                                         "ColumnSpan": 5,
@@ -3344,7 +3521,7 @@
                                         "RowSpan": 3
                                     },
                                     {
-                                        "ElementId": "6e65d8e7-2c48-4638-b4b0-928fd9f75135",
+                                        "ElementId": "13eee751-b123-4923-aa3f-0a2d60ac2d17",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 12,
                                         "ColumnSpan": 5,
@@ -3352,7 +3529,7 @@
                                         "RowSpan": 3
                                     },
                                     {
-                                        "ElementId": "86210124-6711-4ffa-9654-9669ee169996",
+                                        "ElementId": "f8acc47d-95fa-46a7-8151-f1e229724ca4",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 18,
                                         "ColumnSpan": 6,
@@ -3360,7 +3537,7 @@
                                         "RowSpan": 3
                                     },
                                     {
-                                        "ElementId": "ba0bf296-2c34-4868-98a4-a033b65b0702",
+                                        "ElementId": "73cc2b06-888e-4a43-86c0-6b8fe1ee823a",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 0,
                                         "ColumnSpan": 5,
@@ -3368,7 +3545,7 @@
                                         "RowSpan": 3
                                     },
                                     {
-                                        "ElementId": "840fa534-b47e-4ac6-ac8a-356f7ddc19c5",
+                                        "ElementId": "24babec6-7661-43f6-a25d-d440d5220f75",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 6,
                                         "ColumnSpan": 5,
@@ -3376,7 +3553,7 @@
                                         "RowSpan": 3
                                     },
                                     {
-                                        "ElementId": "6948fcb2-3517-42c4-b3a2-ed37b9e8e3cb",
+                                        "ElementId": "34a7b002-d11f-4608-99b4-069163413354",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 12,
                                         "ColumnSpan": 5,
@@ -3384,7 +3561,7 @@
                                         "RowSpan": 3
                                     },
                                     {
-                                        "ElementId": "daf3e5d6-6d78-4294-a9ce-3994c3425d19",
+                                        "ElementId": "37790f17-713c-4fc7-b61a-166581182264",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 18,
                                         "ColumnSpan": 6,
@@ -3392,7 +3569,7 @@
                                         "RowSpan": 3
                                     },
                                     {
-                                        "ElementId": "4cc96912-8857-486d-8ee9-dab7828f807b",
+                                        "ElementId": "61c97745-30c5-4ae3-9f2a-168a77f7e75f",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 0,
                                         "ColumnSpan": 36,
@@ -3400,7 +3577,7 @@
                                         "RowSpan": 14
                                     },
                                     {
-                                        "ElementId": "ca7f25f2-8d81-4116-a8fd-054a26345d19",
+                                        "ElementId": "a92b073e-f795-447f-995d-b53b98e0d9b3",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 0,
                                         "ColumnSpan": 8,
@@ -3408,7 +3585,7 @@
                                         "RowSpan": 7
                                     },
                                     {
-                                        "ElementId": "1e83b96e-ca39-40bc-ba9a-5767e3732dc7",
+                                        "ElementId": "b6c2fcbd-4e70-43d7-91bc-581cb006a295",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 8,
                                         "ColumnSpan": 28,
@@ -3416,7 +3593,7 @@
                                         "RowSpan": 14
                                     },
                                     {
-                                        "ElementId": "96eaf9a2-af4a-497f-9dd0-9912dc8aedf0",
+                                        "ElementId": "01b3ac4d-1aa9-41a0-bd59-c8fe762e8d2b",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 0,
                                         "ColumnSpan": 8,
@@ -3424,7 +3601,7 @@
                                         "RowSpan": 7
                                     },
                                     {
-                                        "ElementId": "57cf71a1-a41b-460f-9bfc-428620c0373b",
+                                        "ElementId": "347e0e3a-fc7b-4bb4-b48d-742be1ea1e62",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 0,
                                         "ColumnSpan": 16,
@@ -3432,7 +3609,7 @@
                                         "RowSpan": 8
                                     },
                                     {
-                                        "ElementId": "9a36c77d-0906-4ac1-ab61-461da3a4e8c5",
+                                        "ElementId": "9d0d9438-26e9-4048-a578-05b55b9381c0",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 20,
                                         "ColumnSpan": 16,
@@ -3471,7 +3648,7 @@
                 "ContentType": "INTERACTIVE"
             },
             {
-                "SheetId": "83be857c-d781-4d59-8d38-17ff3d74091a",
+                "SheetId": "9a9c38c6-81da-4240-9a2e-04ba4ecc9675",
                 "Name": "Collection Circulation Details",
                 "FilterControls": [
                     {
@@ -3523,7 +3700,7 @@
                 "Visuals": [
                     {
                         "PivotTableVisual": {
-                            "VisualId": "cd2fc855-f83d-400a-aaf8-93284b5c2657",
+                            "VisualId": "dd1a32d3-b8e7-4fc9-b739-12b29c8eeafd",
                             "Title": {
                                 "Visibility": "VISIBLE",
                                 "FormatText": {
@@ -3685,7 +3862,7 @@
                     },
                     {
                         "PivotTableVisual": {
-                            "VisualId": "463552b7-94d0-4a14-9033-dd910233be83",
+                            "VisualId": "e894bd09-01dc-4ad2-a846-5b1f8506442d",
                             "Title": {
                                 "Visibility": "VISIBLE",
                                 "FormatText": {
@@ -3754,11 +3931,15 @@
                                     "SingleMetricVisibility": "HIDDEN",
                                     "ColumnNamesVisibility": "HIDDEN",
                                     "ToggleButtonsVisibility": "HIDDEN",
-                                    "ColumnHeaderStyle": {},
+                                    "ColumnHeaderStyle": {
+                                        "Height": 25
+                                    },
                                     "CellStyle": {
                                         "Height": 25
                                     },
-                                    "RowFieldNamesStyle": {},
+                                    "RowFieldNamesStyle": {
+                                        "Height": 25
+                                    },
                                     "RowAlternateColorOptions": {
                                         "Status": "DISABLED",
                                         "UsePrimaryBackgroundColor": "ENABLED"
@@ -3847,7 +4028,7 @@
                     },
                     {
                         "PieChartVisual": {
-                            "VisualId": "6f172aa3-ee1d-4e51-855b-7fa339bf1812",
+                            "VisualId": "59de8191-02b6-4715-9b14-7dbbaa3d7dfb",
                             "Title": {
                                 "Visibility": "VISIBLE",
                                 "FormatText": {
@@ -3950,7 +4131,7 @@
                     },
                     {
                         "PieChartVisual": {
-                            "VisualId": "7ea9b2b7-fbac-44cb-a8a0-ca118292121d",
+                            "VisualId": "fae15ee1-7d34-489f-9091-eb4d90557eca",
                             "Title": {
                                 "Visibility": "VISIBLE",
                                 "FormatText": {
@@ -4053,7 +4234,7 @@
                     },
                     {
                         "BarChartVisual": {
-                            "VisualId": "45c3fe4f-6e45-48a1-aa35-2909a7bc0f69",
+                            "VisualId": "548ac6bf-03be-4153-a7a8-17768e7776c4",
                             "Title": {
                                 "Visibility": "VISIBLE",
                                 "FormatText": {
@@ -4118,7 +4299,7 @@
                                         "VisibleRange": {
                                             "PercentRange": {
                                                 "From": 0.0,
-                                                "To": 10.000000000000018
+                                                "To": 10.00000000000002
                                             }
                                         }
                                     },
@@ -4169,7 +4350,7 @@
                     },
                     {
                         "PieChartVisual": {
-                            "VisualId": "a368be3f-85e3-4c5d-9370-b40f703770bd",
+                            "VisualId": "1be8627b-d0f5-4070-91ae-16bf4356e052",
                             "Title": {
                                 "Visibility": "VISIBLE",
                                 "FormatText": {
@@ -4273,7 +4454,7 @@
                     },
                     {
                         "LineChartVisual": {
-                            "VisualId": "5d4ee626-8d2e-4483-965c-431c249bedfb",
+                            "VisualId": "204bf54d-e36c-46a6-b4d5-eb1be02e4e96",
                             "Title": {
                                 "Visibility": "VISIBLE",
                                 "FormatText": {
@@ -4292,19 +4473,13 @@
                                         "Category": [
                                             {
                                                 "DateDimensionField": {
-                                                    "FieldId": "afdf6e9e-6ca5-491f-9dd6-7ffbc2431e2b.4.1676649243004",
+                                                    "FieldId": "1fddc8ca-0639-4e98-a807-829990c9eb70.time_stamp.2.1788987473265",
                                                     "Column": {
                                                         "DataSetIdentifier": "circulation_view",
-                                                        "ColumnName": "LocalTime"
+                                                        "ColumnName": "time_stamp"
                                                     },
                                                     "DateGranularity": "MONTH",
-                                                    "HierarchyId": "afdf6e9e-6ca5-491f-9dd6-7ffbc2431e2b.4.1676649243004",
-                                                    "FormatConfiguration": {
-                                                        "DateTimeFormat": "MMM D, YYYY",
-                                                        "NullValueFormatConfiguration": {
-                                                            "NullString": "null"
-                                                        }
-                                                    }
+                                                    "HierarchyId": "1fddc8ca-0639-4e98-a807-829990c9eb70.time_stamp.2.1788987473265"
                                                 }
                                             }
                                         ],
@@ -4337,7 +4512,7 @@
                                     "CategorySort": [
                                         {
                                             "FieldSort": {
-                                                "FieldId": "afdf6e9e-6ca5-491f-9dd6-7ffbc2431e2b.4.1676649243004",
+                                                "FieldId": "1fddc8ca-0639-4e98-a807-829990c9eb70.time_stamp.2.1788987473265",
                                                 "Direction": "DESC"
                                             }
                                         }
@@ -4353,6 +4528,20 @@
                                     }
                                 },
                                 "Type": "LINE",
+                                "XAxisLabelOptions": {
+                                    "AxisLabelOptions": [
+                                        {
+                                            "CustomLabel": "Month",
+                                            "ApplyTo": {
+                                                "FieldId": "1fddc8ca-0639-4e98-a807-829990c9eb70.time_stamp.2.1788987473265",
+                                                "Column": {
+                                                    "DataSetIdentifier": "circulation_view",
+                                                    "ColumnName": "time_stamp"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
                                 "PrimaryYAxisDisplayOptions": {
                                     "AxisOptions": {
                                         "TickLabelOptions": {
@@ -4398,13 +4587,13 @@
                                             },
                                             {
                                                 "FieldTooltipItem": {
-                                                    "FieldId": "afdf6e9e-6ca5-491f-9dd6-7ffbc2431e2b.4.1676649243004",
+                                                    "FieldId": "e59682ba-8100-448f-b5e6-9a04fd49d7a7.medium.2.1676650091730",
                                                     "Visibility": "VISIBLE"
                                                 }
                                             },
                                             {
                                                 "FieldTooltipItem": {
-                                                    "FieldId": "e59682ba-8100-448f-b5e6-9a04fd49d7a7.medium.2.1676650091730",
+                                                    "FieldId": "1fddc8ca-0639-4e98-a807-829990c9eb70.time_stamp.2.1788987473265",
                                                     "Visibility": "VISIBLE"
                                                 }
                                             }
@@ -4416,7 +4605,7 @@
                             "ColumnHierarchies": [
                                 {
                                     "DateTimeHierarchy": {
-                                        "HierarchyId": "afdf6e9e-6ca5-491f-9dd6-7ffbc2431e2b.4.1676649243004"
+                                        "HierarchyId": "1fddc8ca-0639-4e98-a807-829990c9eb70.time_stamp.2.1788987473265"
                                     }
                                 }
                             ]
@@ -4424,7 +4613,7 @@
                     },
                     {
                         "LineChartVisual": {
-                            "VisualId": "870fc393-5938-4674-816c-7800c9dd05c6",
+                            "VisualId": "6082dfbd-d88c-4429-84b5-b87b7c348b3f",
                             "Title": {
                                 "Visibility": "VISIBLE",
                                 "FormatText": {
@@ -4443,19 +4632,13 @@
                                         "Category": [
                                             {
                                                 "DateDimensionField": {
-                                                    "FieldId": "afdf6e9e-6ca5-491f-9dd6-7ffbc2431e2b.4.1676649243004",
+                                                    "FieldId": "1fddc8ca-0639-4e98-a807-829990c9eb70.time_stamp.2.1788987764551",
                                                     "Column": {
                                                         "DataSetIdentifier": "circulation_view",
-                                                        "ColumnName": "LocalTime"
+                                                        "ColumnName": "time_stamp"
                                                     },
                                                     "DateGranularity": "MONTH",
-                                                    "HierarchyId": "afdf6e9e-6ca5-491f-9dd6-7ffbc2431e2b.4.1676649243004",
-                                                    "FormatConfiguration": {
-                                                        "DateTimeFormat": "MMM D, YYYY",
-                                                        "NullValueFormatConfiguration": {
-                                                            "NullString": "null"
-                                                        }
-                                                    }
+                                                    "HierarchyId": "1fddc8ca-0639-4e98-a807-829990c9eb70.time_stamp.2.1788987764551"
                                                 }
                                             }
                                         ],
@@ -4488,7 +4671,7 @@
                                     "CategorySort": [
                                         {
                                             "FieldSort": {
-                                                "FieldId": "afdf6e9e-6ca5-491f-9dd6-7ffbc2431e2b.4.1676649243004",
+                                                "FieldId": "1fddc8ca-0639-4e98-a807-829990c9eb70.time_stamp.2.1788987764551",
                                                 "Direction": "DESC"
                                             }
                                         }
@@ -4506,6 +4689,20 @@
                                 "Type": "LINE",
                                 "XAxisDisplayOptions": {
                                     "AxisLineVisibility": "VISIBLE"
+                                },
+                                "XAxisLabelOptions": {
+                                    "AxisLabelOptions": [
+                                        {
+                                            "CustomLabel": "Month",
+                                            "ApplyTo": {
+                                                "FieldId": "1fddc8ca-0639-4e98-a807-829990c9eb70.time_stamp.2.1788987764551",
+                                                "Column": {
+                                                    "DataSetIdentifier": "circulation_view",
+                                                    "ColumnName": "time_stamp"
+                                                }
+                                            }
+                                        }
+                                    ]
                                 },
                                 "PrimaryYAxisDisplayOptions": {
                                     "AxisOptions": {
@@ -4552,13 +4749,13 @@
                                             },
                                             {
                                                 "FieldTooltipItem": {
-                                                    "FieldId": "afdf6e9e-6ca5-491f-9dd6-7ffbc2431e2b.4.1676649243004",
+                                                    "FieldId": "e59682ba-8100-448f-b5e6-9a04fd49d7a7.medium.2.1676650091730",
                                                     "Visibility": "VISIBLE"
                                                 }
                                             },
                                             {
                                                 "FieldTooltipItem": {
-                                                    "FieldId": "e59682ba-8100-448f-b5e6-9a04fd49d7a7.medium.2.1676650091730",
+                                                    "FieldId": "1fddc8ca-0639-4e98-a807-829990c9eb70.time_stamp.2.1788987764551",
                                                     "Visibility": "VISIBLE"
                                                 }
                                             }
@@ -4570,7 +4767,7 @@
                             "ColumnHierarchies": [
                                 {
                                     "DateTimeHierarchy": {
-                                        "HierarchyId": "afdf6e9e-6ca5-491f-9dd6-7ffbc2431e2b.4.1676649243004"
+                                        "HierarchyId": "1fddc8ca-0639-4e98-a807-829990c9eb70.time_stamp.2.1788987764551"
                                     }
                                 }
                             ]
@@ -4578,7 +4775,7 @@
                     },
                     {
                         "PivotTableVisual": {
-                            "VisualId": "41dc14d6-b2f5-4514-8589-42eaf9b67f74",
+                            "VisualId": "035bd68d-7eb2-4e53-8f2c-4940b8b6b21d",
                             "Title": {
                                 "Visibility": "VISIBLE",
                                 "FormatText": {
@@ -4597,10 +4794,10 @@
                                         "Rows": [
                                             {
                                                 "DateDimensionField": {
-                                                    "FieldId": "afdf6e9e-6ca5-491f-9dd6-7ffbc2431e2b.0.1676651221498",
+                                                    "FieldId": "1fddc8ca-0639-4e98-a807-829990c9eb70.time_stamp.2.1788987718171",
                                                     "Column": {
                                                         "DataSetIdentifier": "circulation_view",
-                                                        "ColumnName": "LocalTime"
+                                                        "ColumnName": "time_stamp"
                                                     },
                                                     "DateGranularity": "MONTH"
                                                 }
@@ -4733,7 +4930,7 @@
                                 "FieldOptions": {
                                     "SelectedFieldOptions": [
                                         {
-                                            "FieldId": "afdf6e9e-6ca5-491f-9dd6-7ffbc2431e2b.0.1676651221498",
+                                            "FieldId": "1fddc8ca-0639-4e98-a807-829990c9eb70.time_stamp.2.1788987718171",
                                             "CustomLabel": "Month",
                                             "Visibility": "VISIBLE"
                                         },
@@ -4748,15 +4945,6 @@
                                         }
                                     ],
                                     "DataPathOptions": [
-                                        {
-                                            "DataPathList": [
-                                                {
-                                                    "FieldId": "afdf6e9e-6ca5-491f-9dd6-7ffbc2431e2b.0.1676651221498",
-                                                    "FieldValue": "LocalTime"
-                                                }
-                                            ],
-                                            "Width": "181px"
-                                        },
                                         {
                                             "DataPathList": [
                                                 {
@@ -4808,7 +4996,7 @@
                     },
                     {
                         "BarChartVisual": {
-                            "VisualId": "790d0fc1-1e51-43f4-8c10-987705d0cd1c",
+                            "VisualId": "86cd048c-fd56-437f-88e5-b9e07fa405c3",
                             "Title": {
                                 "Visibility": "VISIBLE",
                                 "FormatText": {
@@ -4985,7 +5173,7 @@
                                         "RowSpan": 4
                                     },
                                     {
-                                        "ElementId": "41dc14d6-b2f5-4514-8589-42eaf9b67f74",
+                                        "ElementId": "035bd68d-7eb2-4e53-8f2c-4940b8b6b21d",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 0,
                                         "ColumnSpan": 19,
@@ -4993,7 +5181,7 @@
                                         "RowSpan": 17
                                     },
                                     {
-                                        "ElementId": "5d4ee626-8d2e-4483-965c-431c249bedfb",
+                                        "ElementId": "204bf54d-e36c-46a6-b4d5-eb1be02e4e96",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 19,
                                         "ColumnSpan": 17,
@@ -5001,7 +5189,7 @@
                                         "RowSpan": 9
                                     },
                                     {
-                                        "ElementId": "870fc393-5938-4674-816c-7800c9dd05c6",
+                                        "ElementId": "6082dfbd-d88c-4429-84b5-b87b7c348b3f",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 19,
                                         "ColumnSpan": 17,
@@ -5009,7 +5197,7 @@
                                         "RowSpan": 8
                                     },
                                     {
-                                        "ElementId": "790d0fc1-1e51-43f4-8c10-987705d0cd1c",
+                                        "ElementId": "86cd048c-fd56-437f-88e5-b9e07fa405c3",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 0,
                                         "ColumnSpan": 36,
@@ -5017,7 +5205,7 @@
                                         "RowSpan": 12
                                     },
                                     {
-                                        "ElementId": "463552b7-94d0-4a14-9033-dd910233be83",
+                                        "ElementId": "e894bd09-01dc-4ad2-a846-5b1f8506442d",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 0,
                                         "ColumnSpan": 36,
@@ -5025,7 +5213,7 @@
                                         "RowSpan": 6
                                     },
                                     {
-                                        "ElementId": "cd2fc855-f83d-400a-aaf8-93284b5c2657",
+                                        "ElementId": "dd1a32d3-b8e7-4fc9-b739-12b29c8eeafd",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 0,
                                         "ColumnSpan": 36,
@@ -5033,7 +5221,7 @@
                                         "RowSpan": 7
                                     },
                                     {
-                                        "ElementId": "a368be3f-85e3-4c5d-9370-b40f703770bd",
+                                        "ElementId": "1be8627b-d0f5-4070-91ae-16bf4356e052",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 0,
                                         "ColumnSpan": 36,
@@ -5041,7 +5229,7 @@
                                         "RowSpan": 12
                                     },
                                     {
-                                        "ElementId": "45c3fe4f-6e45-48a1-aa35-2909a7bc0f69",
+                                        "ElementId": "548ac6bf-03be-4153-a7a8-17768e7776c4",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 0,
                                         "ColumnSpan": 36,
@@ -5049,7 +5237,7 @@
                                         "RowSpan": 12
                                     },
                                     {
-                                        "ElementId": "7ea9b2b7-fbac-44cb-a8a0-ca118292121d",
+                                        "ElementId": "fae15ee1-7d34-489f-9091-eb4d90557eca",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 0,
                                         "ColumnSpan": 36,
@@ -5057,7 +5245,7 @@
                                         "RowSpan": 14
                                     },
                                     {
-                                        "ElementId": "6f172aa3-ee1d-4e51-855b-7fa339bf1812",
+                                        "ElementId": "59de8191-02b6-4715-9b14-7dbbaa3d7dfb",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 0,
                                         "ColumnSpan": 36,
@@ -5104,7 +5292,7 @@
                 "ContentType": "INTERACTIVE"
             },
             {
-                "SheetId": "081082a8-c41b-42e6-b9b5-0858157b41c6",
+                "SheetId": "98055e47-df3a-49ca-aea5-74584937a858",
                 "Name": "Title Circulation Details",
                 "FilterControls": [
                     {
@@ -5156,7 +5344,7 @@
                 "Visuals": [
                     {
                         "PivotTableVisual": {
-                            "VisualId": "aa9923bf-8746-4bbc-a3cd-c58574826f80",
+                            "VisualId": "ab3f6cc2-7850-48e8-813b-1ca17f0fc64f",
                             "Title": {
                                 "Visibility": "VISIBLE",
                                 "FormatText": {
@@ -5339,7 +5527,7 @@
                     },
                     {
                         "PivotTableVisual": {
-                            "VisualId": "62c5b942-a692-413a-b54a-65933f01ffbb",
+                            "VisualId": "d576a498-6452-4545-9034-0f23efd8a79c",
                             "Title": {
                                 "Visibility": "VISIBLE",
                                 "FormatText": {
@@ -5541,7 +5729,7 @@
                                         "RowSpan": 3
                                     },
                                     {
-                                        "ElementId": "62c5b942-a692-413a-b54a-65933f01ffbb",
+                                        "ElementId": "d576a498-6452-4545-9034-0f23efd8a79c",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 0,
                                         "ColumnSpan": 36,
@@ -5549,7 +5737,7 @@
                                         "RowSpan": 20
                                     },
                                     {
-                                        "ElementId": "aa9923bf-8746-4bbc-a3cd-c58574826f80",
+                                        "ElementId": "ab3f6cc2-7850-48e8-813b-1ca17f0fc64f",
                                         "ElementType": "VISUAL",
                                         "ColumnSpan": 36,
                                         "RowSpan": 20
@@ -5594,7 +5782,7 @@
                 "ContentType": "INTERACTIVE"
             },
             {
-                "SheetId": "14aa9388-6a3a-46dc-9b44-880e6f5f96eb",
+                "SheetId": "bd6f1ab2-7b8e-4548-9409-e6ab2b8c602b",
                 "Name": "Export: All Usage Data",
                 "FilterControls": [
                     {
@@ -5790,7 +5978,7 @@
                 "Visuals": [
                     {
                         "TableVisual": {
-                            "VisualId": "b1af537c-dfd9-4816-8f48-e9b1cbe42a1c",
+                            "VisualId": "919b4457-e663-4041-bbcc-a9ea101a3a26",
                             "Title": {
                                 "Visibility": "HIDDEN"
                             },
@@ -6061,7 +6249,7 @@
                                         "RowSpan": 3
                                     },
                                     {
-                                        "ElementId": "b1af537c-dfd9-4816-8f48-e9b1cbe42a1c",
+                                        "ElementId": "919b4457-e663-4041-bbcc-a9ea101a3a26",
                                         "ElementType": "VISUAL",
                                         "ColumnIndex": 0,
                                         "ColumnSpan": 36,
@@ -6159,23 +6347,8 @@
         "CalculatedFields": [
             {
                 "DataSetIdentifier": "circulation_view",
-                "Name": "Alaska",
-                "Expression": "addDateTime(-9,'HH',{time_stamp})"
-            },
-            {
-                "DataSetIdentifier": "circulation_view",
-                "Name": "Central",
-                "Expression": "addDateTime(-6,'HH',{time_stamp})"
-            },
-            {
-                "DataSetIdentifier": "circulation_view",
                 "Name": "Day of Week",
                 "Expression": "toString(extract('WD',{time_stamp}))"
-            },
-            {
-                "DataSetIdentifier": "circulation_view",
-                "Name": "Eastern",
-                "Expression": "addDateTime(-5,'HH',{time_stamp})"
             },
             {
                 "DataSetIdentifier": "circulation_view",
@@ -6189,50 +6362,16 @@
             },
             {
                 "DataSetIdentifier": "circulation_view",
-                "Name": "Hawaii",
-                "Expression": "addDateTime(-9,'HH',{time_stamp})"
-            },
-            {
-                "DataSetIdentifier": "circulation_view",
                 "Name": "License",
                 "Expression": "ifelse({open_access}='yes','Open Access','Licensed')"
             },
             {
                 "DataSetIdentifier": "circulation_view",
-                "Name": "LocalTime",
-                "Expression": "ifelse(${TimeZone}='Eastern',Eastern,ifelse(${TimeZone}='Central',Central,{time_stamp}))"
-            },
-            {
-                "DataSetIdentifier": "circulation_view",
-                "Name": "Mountain",
-                "Expression": "addDateTime(-7,'HH',{time_stamp})"
-            },
-            {
-                "DataSetIdentifier": "circulation_view",
                 "Name": "Name of Day",
                 "Expression": "ifelse\n( \n    isNull({Day of Week}),'Untested', \n    {Day of Week}=1, 'Sunday', \n    {Day of Week}=2, 'Monday', \n    {Day of Week}=3, 'Tuesday',\n    {Day of Week}=4, 'Wednesday',\n    {Day of Week}=5, 'Thursday',\n    {Day of Week}=6, 'Friday',\n    'Saturday'\n)"
-            },
-            {
-                "DataSetIdentifier": "circulation_view",
-                "Name": "Pacific",
-                "Expression": "addDateTime(-8,'HH',{time_stamp})"
             }
         ],
         "ParameterDeclarations": [
-            {
-                "StringParameterDeclaration": {
-                    "ParameterValueType": "SINGLE_VALUED",
-                    "Name": "TimeZone",
-                    "DefaultValues": {
-                        "StaticValues": [
-                            "Eastern"
-                        ]
-                    },
-                    "ValueWhenUnset": {
-                        "ValueWhenUnsetOption": "RECOMMENDED_VALUE"
-                    }
-                }
-            },
             {
                 "StringParameterDeclaration": {
                     "ParameterValueType": "SINGLE_VALUED",
@@ -6243,18 +6382,6 @@
                     "ValueWhenUnset": {
                         "ValueWhenUnsetOption": "NULL"
                     }
-                }
-            },
-            {
-                "DateTimeParameterDeclaration": {
-                    "Name": "Timeframe",
-                    "DefaultValues": {
-                        "StaticValues": [],
-                        "RollingDate": {
-                            "Expression": "truncDate('YYYY', now())"
-                        }
-                    },
-                    "TimeGranularity": "DAY"
                 }
             }
         ],
@@ -6283,7 +6410,7 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "ab9ecee7-7bcd-40ef-9e5c-7fe6bd077bb4",
+                                "SheetId": "241e6475-e26d-44af-a04a-259c48436f03",
                                 "Scope": "ALL_VISUALS"
                             }
                         ]
@@ -6300,7 +6427,7 @@
                             "FilterId": "2afbfbbc-3947-41fa-a131-d122d5216935",
                             "Column": {
                                 "DataSetIdentifier": "circulation_view",
-                                "ColumnName": "LocalTime"
+                                "ColumnName": "afdf6e9e-6ca5-491f-9dd6-7ffbc2431e2b"
                             },
                             "AnchorDateConfiguration": {
                                 "AnchorOption": "NOW"
@@ -6317,7 +6444,7 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "ab9ecee7-7bcd-40ef-9e5c-7fe6bd077bb4",
+                                "SheetId": "241e6475-e26d-44af-a04a-259c48436f03",
                                 "Scope": "ALL_VISUALS"
                             }
                         ]
@@ -6352,11 +6479,11 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "afac0b4d-86e9-4039-befe-3ad767a0bdec",
+                                "SheetId": "f9feca83-db61-4640-80c3-2d89500ce7f1",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "818b93c1-8e23-41f1-a01e-e1003dd696c7",
-                                    "ee8b44a4-c759-4234-9213-5a51745737f1"
+                                    "b6fe11c4-7499-4b15-92b1-b80cf3a32232",
+                                    "de1c6469-57e9-4ec0-8a50-5411a583d454"
                                 ]
                             }
                         ]
@@ -6391,10 +6518,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "afac0b4d-86e9-4039-befe-3ad767a0bdec",
+                                "SheetId": "f9feca83-db61-4640-80c3-2d89500ce7f1",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "ee655db9-2093-4a5c-b24b-cb60d2ded6df"
+                                    "71b691a7-dbea-41bd-977e-4240b423f9a7"
                                 ]
                             }
                         ]
@@ -6429,10 +6556,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "afac0b4d-86e9-4039-befe-3ad767a0bdec",
+                                "SheetId": "f9feca83-db61-4640-80c3-2d89500ce7f1",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "7c4a6ada-5ea3-4a8e-ac16-518424222fb9"
+                                    "e1ae8746-4d05-44d7-8d5c-1766a1561515"
                                 ]
                             }
                         ]
@@ -6467,10 +6594,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "afac0b4d-86e9-4039-befe-3ad767a0bdec",
+                                "SheetId": "f9feca83-db61-4640-80c3-2d89500ce7f1",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "ec1033cd-2abf-49a6-9fa3-89a3ee9e04b9"
+                                    "03cb2c7f-d7cf-4b79-9df2-9b54f44749f6"
                                 ]
                             }
                         ]
@@ -6505,10 +6632,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "afac0b4d-86e9-4039-befe-3ad767a0bdec",
+                                "SheetId": "f9feca83-db61-4640-80c3-2d89500ce7f1",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "22cbe1a4-ebfa-4f17-8cc0-13ba89b853c2"
+                                    "304270dd-3327-4f74-8500-9d95143eb5ad"
                                 ]
                             }
                         ]
@@ -6543,10 +6670,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "afac0b4d-86e9-4039-befe-3ad767a0bdec",
+                                "SheetId": "f9feca83-db61-4640-80c3-2d89500ce7f1",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "22cbe1a4-ebfa-4f17-8cc0-13ba89b853c2"
+                                    "304270dd-3327-4f74-8500-9d95143eb5ad"
                                 ]
                             }
                         ]
@@ -6581,10 +6708,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "afac0b4d-86e9-4039-befe-3ad767a0bdec",
+                                "SheetId": "f9feca83-db61-4640-80c3-2d89500ce7f1",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "ee8b44a4-c759-4234-9213-5a51745737f1"
+                                    "de1c6469-57e9-4ec0-8a50-5411a583d454"
                                 ]
                             }
                         ]
@@ -6619,10 +6746,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "afac0b4d-86e9-4039-befe-3ad767a0bdec",
+                                "SheetId": "f9feca83-db61-4640-80c3-2d89500ce7f1",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "196c96e8-a237-41ec-be71-092e42ff0a6a"
+                                    "ee9b2c42-a404-4689-96d2-604ed335d850"
                                 ]
                             }
                         ]
@@ -6655,7 +6782,7 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "afac0b4d-86e9-4039-befe-3ad767a0bdec",
+                                "SheetId": "f9feca83-db61-4640-80c3-2d89500ce7f1",
                                 "Scope": "ALL_VISUALS"
                             }
                         ]
@@ -6690,11 +6817,11 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "a75112fe-5300-4c43-89b7-fa09219f46c0",
+                                "SheetId": "09dd174f-df18-4a3e-9f0a-5173599b80c2",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "6e65d8e7-2c48-4638-b4b0-928fd9f75135",
-                                    "6948fcb2-3517-42c4-b3a2-ed37b9e8e3cb"
+                                    "13eee751-b123-4923-aa3f-0a2d60ac2d17",
+                                    "34a7b002-d11f-4608-99b4-069163413354"
                                 ]
                             }
                         ]
@@ -6729,10 +6856,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "a75112fe-5300-4c43-89b7-fa09219f46c0",
+                                "SheetId": "09dd174f-df18-4a3e-9f0a-5173599b80c2",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "97e63a7d-d385-47f8-8a0f-e821ca0a4043"
+                                    "d4afacd5-fbd7-4d55-8ad7-9ac54b17129b"
                                 ]
                             }
                         ]
@@ -6767,10 +6894,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "a75112fe-5300-4c43-89b7-fa09219f46c0",
+                                "SheetId": "09dd174f-df18-4a3e-9f0a-5173599b80c2",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "57cf71a1-a41b-460f-9bfc-428620c0373b"
+                                    "347e0e3a-fc7b-4bb4-b48d-742be1ea1e62"
                                 ]
                             }
                         ]
@@ -6805,10 +6932,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "a75112fe-5300-4c43-89b7-fa09219f46c0",
+                                "SheetId": "09dd174f-df18-4a3e-9f0a-5173599b80c2",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "9a36c77d-0906-4ac1-ab61-461da3a4e8c5"
+                                    "9d0d9438-26e9-4048-a578-05b55b9381c0"
                                 ]
                             }
                         ]
@@ -6843,10 +6970,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "a75112fe-5300-4c43-89b7-fa09219f46c0",
+                                "SheetId": "09dd174f-df18-4a3e-9f0a-5173599b80c2",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "840fa534-b47e-4ac6-ac8a-356f7ddc19c5"
+                                    "24babec6-7661-43f6-a25d-d440d5220f75"
                                 ]
                             }
                         ]
@@ -6881,20 +7008,20 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "a75112fe-5300-4c43-89b7-fa09219f46c0",
+                                "SheetId": "09dd174f-df18-4a3e-9f0a-5173599b80c2",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "9a36c77d-0906-4ac1-ab61-461da3a4e8c5",
-                                    "96eaf9a2-af4a-497f-9dd0-9912dc8aedf0",
-                                    "86210124-6711-4ffa-9654-9669ee169996",
-                                    "6e65d8e7-2c48-4638-b4b0-928fd9f75135",
-                                    "1e83b96e-ca39-40bc-ba9a-5767e3732dc7",
-                                    "97e63a7d-d385-47f8-8a0f-e821ca0a4043",
-                                    "ca7f25f2-8d81-4116-a8fd-054a26345d19",
-                                    "4cc96912-8857-486d-8ee9-dab7828f807b",
-                                    "57cf71a1-a41b-460f-9bfc-428620c0373b",
-                                    "daf3e5d6-6d78-4294-a9ce-3994c3425d19",
-                                    "6e290a11-c96a-47e3-b550-be5a9927d38e"
+                                    "9d0d9438-26e9-4048-a578-05b55b9381c0",
+                                    "01b3ac4d-1aa9-41a0-bd59-c8fe762e8d2b",
+                                    "f8acc47d-95fa-46a7-8151-f1e229724ca4",
+                                    "13eee751-b123-4923-aa3f-0a2d60ac2d17",
+                                    "b6c2fcbd-4e70-43d7-91bc-581cb006a295",
+                                    "d4afacd5-fbd7-4d55-8ad7-9ac54b17129b",
+                                    "a92b073e-f795-447f-995d-b53b98e0d9b3",
+                                    "61c97745-30c5-4ae3-9f2a-168a77f7e75f",
+                                    "347e0e3a-fc7b-4bb4-b48d-742be1ea1e62",
+                                    "37790f17-713c-4fc7-b61a-166581182264",
+                                    "8363057a-d7d9-4c80-bff2-eb7c03efb4a6"
                                 ]
                             }
                         ]
@@ -6929,10 +7056,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "a75112fe-5300-4c43-89b7-fa09219f46c0",
+                                "SheetId": "09dd174f-df18-4a3e-9f0a-5173599b80c2",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "840fa534-b47e-4ac6-ac8a-356f7ddc19c5"
+                                    "24babec6-7661-43f6-a25d-d440d5220f75"
                                 ]
                             }
                         ]
@@ -6967,10 +7094,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "a75112fe-5300-4c43-89b7-fa09219f46c0",
+                                "SheetId": "09dd174f-df18-4a3e-9f0a-5173599b80c2",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "6948fcb2-3517-42c4-b3a2-ed37b9e8e3cb"
+                                    "34a7b002-d11f-4608-99b4-069163413354"
                                 ]
                             }
                         ]
@@ -7005,10 +7132,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "a75112fe-5300-4c43-89b7-fa09219f46c0",
+                                "SheetId": "09dd174f-df18-4a3e-9f0a-5173599b80c2",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "daf3e5d6-6d78-4294-a9ce-3994c3425d19"
+                                    "37790f17-713c-4fc7-b61a-166581182264"
                                 ]
                             }
                         ]
@@ -7043,10 +7170,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "83be857c-d781-4d59-8d38-17ff3d74091a",
+                                "SheetId": "9a9c38c6-81da-4240-9a2e-04ba4ecc9675",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "870fc393-5938-4674-816c-7800c9dd05c6"
+                                    "6082dfbd-d88c-4429-84b5-b87b7c348b3f"
                                 ]
                             }
                         ]
@@ -7079,7 +7206,7 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "081082a8-c41b-42e6-b9b5-0858157b41c6",
+                                "SheetId": "98055e47-df3a-49ca-aea5-74584937a858",
                                 "Scope": "ALL_VISUALS"
                             }
                         ]
@@ -7112,10 +7239,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "081082a8-c41b-42e6-b9b5-0858157b41c6",
+                                "SheetId": "98055e47-df3a-49ca-aea5-74584937a858",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "62c5b942-a692-413a-b54a-65933f01ffbb"
+                                    "d576a498-6452-4545-9034-0f23efd8a79c"
                                 ]
                             }
                         ]
@@ -7148,7 +7275,7 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "081082a8-c41b-42e6-b9b5-0858157b41c6",
+                                "SheetId": "98055e47-df3a-49ca-aea5-74584937a858",
                                 "Scope": "ALL_VISUALS"
                             }
                         ]
@@ -7181,10 +7308,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "081082a8-c41b-42e6-b9b5-0858157b41c6",
+                                "SheetId": "98055e47-df3a-49ca-aea5-74584937a858",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "62c5b942-a692-413a-b54a-65933f01ffbb"
+                                    "d576a498-6452-4545-9034-0f23efd8a79c"
                                 ]
                             }
                         ]
@@ -7217,10 +7344,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "14aa9388-6a3a-46dc-9b44-880e6f5f96eb",
+                                "SheetId": "bd6f1ab2-7b8e-4548-9409-e6ab2b8c602b",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "b1af537c-dfd9-4816-8f48-e9b1cbe42a1c"
+                                    "919b4457-e663-4041-bbcc-a9ea101a3a26"
                                 ]
                             }
                         ]
@@ -7253,10 +7380,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "14aa9388-6a3a-46dc-9b44-880e6f5f96eb",
+                                "SheetId": "bd6f1ab2-7b8e-4548-9409-e6ab2b8c602b",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "b1af537c-dfd9-4816-8f48-e9b1cbe42a1c"
+                                    "919b4457-e663-4041-bbcc-a9ea101a3a26"
                                 ]
                             }
                         ]
@@ -7289,10 +7416,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "14aa9388-6a3a-46dc-9b44-880e6f5f96eb",
+                                "SheetId": "bd6f1ab2-7b8e-4548-9409-e6ab2b8c602b",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "b1af537c-dfd9-4816-8f48-e9b1cbe42a1c"
+                                    "919b4457-e663-4041-bbcc-a9ea101a3a26"
                                 ]
                             }
                         ]
@@ -7325,10 +7452,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "14aa9388-6a3a-46dc-9b44-880e6f5f96eb",
+                                "SheetId": "bd6f1ab2-7b8e-4548-9409-e6ab2b8c602b",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "b1af537c-dfd9-4816-8f48-e9b1cbe42a1c"
+                                    "919b4457-e663-4041-bbcc-a9ea101a3a26"
                                 ]
                             }
                         ]
@@ -7361,10 +7488,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "14aa9388-6a3a-46dc-9b44-880e6f5f96eb",
+                                "SheetId": "bd6f1ab2-7b8e-4548-9409-e6ab2b8c602b",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "b1af537c-dfd9-4816-8f48-e9b1cbe42a1c"
+                                    "919b4457-e663-4041-bbcc-a9ea101a3a26"
                                 ]
                             }
                         ]
@@ -7397,10 +7524,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "14aa9388-6a3a-46dc-9b44-880e6f5f96eb",
+                                "SheetId": "bd6f1ab2-7b8e-4548-9409-e6ab2b8c602b",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "b1af537c-dfd9-4816-8f48-e9b1cbe42a1c"
+                                    "919b4457-e663-4041-bbcc-a9ea101a3a26"
                                 ]
                             }
                         ]
@@ -7433,10 +7560,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "14aa9388-6a3a-46dc-9b44-880e6f5f96eb",
+                                "SheetId": "bd6f1ab2-7b8e-4548-9409-e6ab2b8c602b",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "b1af537c-dfd9-4816-8f48-e9b1cbe42a1c"
+                                    "919b4457-e663-4041-bbcc-a9ea101a3a26"
                                 ]
                             }
                         ]
@@ -7471,10 +7598,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "a75112fe-5300-4c43-89b7-fa09219f46c0",
+                                "SheetId": "09dd174f-df18-4a3e-9f0a-5173599b80c2",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "ba0bf296-2c34-4868-98a4-a033b65b0702"
+                                    "73cc2b06-888e-4a43-86c0-6b8fe1ee823a"
                                 ]
                             }
                         ]
@@ -7507,10 +7634,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "14aa9388-6a3a-46dc-9b44-880e6f5f96eb",
+                                "SheetId": "bd6f1ab2-7b8e-4548-9409-e6ab2b8c602b",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "b1af537c-dfd9-4816-8f48-e9b1cbe42a1c"
+                                    "919b4457-e663-4041-bbcc-a9ea101a3a26"
                                 ]
                             }
                         ]
@@ -7543,10 +7670,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "14aa9388-6a3a-46dc-9b44-880e6f5f96eb",
+                                "SheetId": "bd6f1ab2-7b8e-4548-9409-e6ab2b8c602b",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "b1af537c-dfd9-4816-8f48-e9b1cbe42a1c"
+                                    "919b4457-e663-4041-bbcc-a9ea101a3a26"
                                 ]
                             }
                         ]
@@ -7579,10 +7706,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "14aa9388-6a3a-46dc-9b44-880e6f5f96eb",
+                                "SheetId": "bd6f1ab2-7b8e-4548-9409-e6ab2b8c602b",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "b1af537c-dfd9-4816-8f48-e9b1cbe42a1c"
+                                    "919b4457-e663-4041-bbcc-a9ea101a3a26"
                                 ]
                             }
                         ]
@@ -7617,10 +7744,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "afac0b4d-86e9-4039-befe-3ad767a0bdec",
+                                "SheetId": "f9feca83-db61-4640-80c3-2d89500ce7f1",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "b9889eaa-ac7a-4343-9b4d-85da1c0ba7f5"
+                                    "a34a79a7-1347-4c73-a660-7706256bbf57"
                                 ]
                             }
                         ]
@@ -7655,10 +7782,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "a75112fe-5300-4c43-89b7-fa09219f46c0",
+                                "SheetId": "09dd174f-df18-4a3e-9f0a-5173599b80c2",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "86210124-6711-4ffa-9654-9669ee169996"
+                                    "f8acc47d-95fa-46a7-8151-f1e229724ca4"
                                 ]
                             }
                         ]
@@ -7693,10 +7820,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "afac0b4d-86e9-4039-befe-3ad767a0bdec",
+                                "SheetId": "f9feca83-db61-4640-80c3-2d89500ce7f1",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "a4fa079b-5e17-4c11-a25f-8fe29d7a27bb"
+                                    "dec2892f-499e-41ca-9740-7f5dec5289b1"
                                 ]
                             }
                         ]
@@ -7731,10 +7858,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "83be857c-d781-4d59-8d38-17ff3d74091a",
+                                "SheetId": "9a9c38c6-81da-4240-9a2e-04ba4ecc9675",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "5d4ee626-8d2e-4483-965c-431c249bedfb"
+                                    "204bf54d-e36c-46a6-b4d5-eb1be02e4e96"
                                 ]
                             }
                         ]
@@ -7769,10 +7896,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "83be857c-d781-4d59-8d38-17ff3d74091a",
+                                "SheetId": "9a9c38c6-81da-4240-9a2e-04ba4ecc9675",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "790d0fc1-1e51-43f4-8c10-987705d0cd1c"
+                                    "86cd048c-fd56-437f-88e5-b9e07fa405c3"
                                 ]
                             }
                         ]
@@ -7807,10 +7934,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "83be857c-d781-4d59-8d38-17ff3d74091a",
+                                "SheetId": "9a9c38c6-81da-4240-9a2e-04ba4ecc9675",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "a368be3f-85e3-4c5d-9370-b40f703770bd"
+                                    "1be8627b-d0f5-4070-91ae-16bf4356e052"
                                 ]
                             }
                         ]
@@ -7845,10 +7972,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "83be857c-d781-4d59-8d38-17ff3d74091a",
+                                "SheetId": "9a9c38c6-81da-4240-9a2e-04ba4ecc9675",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "45c3fe4f-6e45-48a1-aa35-2909a7bc0f69"
+                                    "548ac6bf-03be-4153-a7a8-17768e7776c4"
                                 ]
                             }
                         ]
@@ -7883,10 +8010,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "83be857c-d781-4d59-8d38-17ff3d74091a",
+                                "SheetId": "9a9c38c6-81da-4240-9a2e-04ba4ecc9675",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "7ea9b2b7-fbac-44cb-a8a0-ca118292121d"
+                                    "fae15ee1-7d34-489f-9091-eb4d90557eca"
                                 ]
                             }
                         ]
@@ -7921,10 +8048,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "83be857c-d781-4d59-8d38-17ff3d74091a",
+                                "SheetId": "9a9c38c6-81da-4240-9a2e-04ba4ecc9675",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "6f172aa3-ee1d-4e51-855b-7fa339bf1812"
+                                    "59de8191-02b6-4715-9b14-7dbbaa3d7dfb"
                                 ]
                             }
                         ]
@@ -7957,7 +8084,7 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "a75112fe-5300-4c43-89b7-fa09219f46c0",
+                                "SheetId": "09dd174f-df18-4a3e-9f0a-5173599b80c2",
                                 "Scope": "ALL_VISUALS"
                             }
                         ]
@@ -7990,7 +8117,7 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "83be857c-d781-4d59-8d38-17ff3d74091a",
+                                "SheetId": "9a9c38c6-81da-4240-9a2e-04ba4ecc9675",
                                 "Scope": "ALL_VISUALS"
                             }
                         ]
@@ -8026,10 +8153,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "83be857c-d781-4d59-8d38-17ff3d74091a",
+                                "SheetId": "9a9c38c6-81da-4240-9a2e-04ba4ecc9675",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "41dc14d6-b2f5-4514-8589-42eaf9b67f74"
+                                    "035bd68d-7eb2-4e53-8f2c-4940b8b6b21d"
                                 ]
                             }
                         ]
@@ -8062,10 +8189,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "081082a8-c41b-42e6-b9b5-0858157b41c6",
+                                "SheetId": "98055e47-df3a-49ca-aea5-74584937a858",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "62c5b942-a692-413a-b54a-65933f01ffbb"
+                                    "d576a498-6452-4545-9034-0f23efd8a79c"
                                 ]
                             }
                         ]
@@ -8098,7 +8225,7 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "081082a8-c41b-42e6-b9b5-0858157b41c6",
+                                "SheetId": "98055e47-df3a-49ca-aea5-74584937a858",
                                 "Scope": "ALL_VISUALS"
                             }
                         ]
@@ -8133,10 +8260,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "081082a8-c41b-42e6-b9b5-0858157b41c6",
+                                "SheetId": "98055e47-df3a-49ca-aea5-74584937a858",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "62c5b942-a692-413a-b54a-65933f01ffbb"
+                                    "d576a498-6452-4545-9034-0f23efd8a79c"
                                 ]
                             }
                         ]
@@ -8169,10 +8296,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "081082a8-c41b-42e6-b9b5-0858157b41c6",
+                                "SheetId": "98055e47-df3a-49ca-aea5-74584937a858",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "aa9923bf-8746-4bbc-a3cd-c58574826f80"
+                                    "ab3f6cc2-7850-48e8-813b-1ca17f0fc64f"
                                 ]
                             }
                         ]
@@ -8205,10 +8332,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "081082a8-c41b-42e6-b9b5-0858157b41c6",
+                                "SheetId": "98055e47-df3a-49ca-aea5-74584937a858",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "aa9923bf-8746-4bbc-a3cd-c58574826f80"
+                                    "ab3f6cc2-7850-48e8-813b-1ca17f0fc64f"
                                 ]
                             }
                         ]
@@ -8241,10 +8368,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "081082a8-c41b-42e6-b9b5-0858157b41c6",
+                                "SheetId": "98055e47-df3a-49ca-aea5-74584937a858",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "aa9923bf-8746-4bbc-a3cd-c58574826f80"
+                                    "ab3f6cc2-7850-48e8-813b-1ca17f0fc64f"
                                 ]
                             }
                         ]
@@ -8279,10 +8406,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "081082a8-c41b-42e6-b9b5-0858157b41c6",
+                                "SheetId": "98055e47-df3a-49ca-aea5-74584937a858",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "aa9923bf-8746-4bbc-a3cd-c58574826f80"
+                                    "ab3f6cc2-7850-48e8-813b-1ca17f0fc64f"
                                 ]
                             }
                         ]
@@ -8315,10 +8442,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "14aa9388-6a3a-46dc-9b44-880e6f5f96eb",
+                                "SheetId": "bd6f1ab2-7b8e-4548-9409-e6ab2b8c602b",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "b1af537c-dfd9-4816-8f48-e9b1cbe42a1c"
+                                    "919b4457-e663-4041-bbcc-a9ea101a3a26"
                                 ]
                             }
                         ]
@@ -8353,10 +8480,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "ab9ecee7-7bcd-40ef-9e5c-7fe6bd077bb4",
+                                "SheetId": "241e6475-e26d-44af-a04a-259c48436f03",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "f2760075-c462-4112-b659-d7ae349fb202"
+                                    "b22f360c-6618-4da8-9209-d3e99e9a7136"
                                 ]
                             }
                         ]
@@ -8389,7 +8516,7 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "a75112fe-5300-4c43-89b7-fa09219f46c0",
+                                "SheetId": "09dd174f-df18-4a3e-9f0a-5173599b80c2",
                                 "Scope": "ALL_VISUALS"
                             }
                         ]
@@ -8424,20 +8551,20 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "afac0b4d-86e9-4039-befe-3ad767a0bdec",
+                                "SheetId": "f9feca83-db61-4640-80c3-2d89500ce7f1",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "ec1033cd-2abf-49a6-9fa3-89a3ee9e04b9",
-                                    "62e259c0-bdf0-49ff-ac94-92a6817a06cf",
-                                    "a4fa079b-5e17-4c11-a25f-8fe29d7a27bb",
-                                    "818b93c1-8e23-41f1-a01e-e1003dd696c7",
-                                    "38001ad0-8aea-403c-b2f9-87c5f98de1d3",
-                                    "ee655db9-2093-4a5c-b24b-cb60d2ded6df",
-                                    "7db9a003-b414-43ae-a792-1af77bc34a25",
-                                    "a371e471-ad61-4853-a1c6-139153662cef",
-                                    "7c4a6ada-5ea3-4a8e-ac16-518424222fb9",
-                                    "196c96e8-a237-41ec-be71-092e42ff0a6a",
-                                    "039b4180-a0b3-442a-8c0b-0ddaef416d9c"
+                                    "03cb2c7f-d7cf-4b79-9df2-9b54f44749f6",
+                                    "f09e7e4f-1325-41b5-85f1-04682661630e",
+                                    "dec2892f-499e-41ca-9740-7f5dec5289b1",
+                                    "b6fe11c4-7499-4b15-92b1-b80cf3a32232",
+                                    "bc00ebed-f119-41b3-ad62-0fa8a543d350",
+                                    "71b691a7-dbea-41bd-977e-4240b423f9a7",
+                                    "1829e03d-9bdf-420f-addb-77a87de1d19c",
+                                    "e064684b-7e63-4145-8286-b4b137dbe1f6",
+                                    "e1ae8746-4d05-44d7-8d5c-1766a1561515",
+                                    "ee9b2c42-a404-4689-96d2-604ed335d850",
+                                    "63ff94b9-76e1-4c56-8b79-55b3e554a82b"
                                 ]
                             }
                         ]
@@ -8472,10 +8599,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "afac0b4d-86e9-4039-befe-3ad767a0bdec",
+                                "SheetId": "f9feca83-db61-4640-80c3-2d89500ce7f1",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "f8828519-c466-46fa-a87d-b92c78eff190"
+                                    "0c85cc02-df04-473d-ad7c-9c11c1e5fffb"
                                 ]
                             }
                         ]
@@ -8512,10 +8639,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "ab9ecee7-7bcd-40ef-9e5c-7fe6bd077bb4",
+                                "SheetId": "241e6475-e26d-44af-a04a-259c48436f03",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "3ad1d3fe-839f-466d-a26d-d5fb69838817"
+                                    "9d2fab47-2261-4e5a-9866-518723ab7ae5"
                                 ]
                             }
                         ]
@@ -8548,10 +8675,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "ab9ecee7-7bcd-40ef-9e5c-7fe6bd077bb4",
+                                "SheetId": "241e6475-e26d-44af-a04a-259c48436f03",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "f2760075-c462-4112-b659-d7ae349fb202"
+                                    "b22f360c-6618-4da8-9209-d3e99e9a7136"
                                 ]
                             }
                         ]
@@ -8585,10 +8712,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "ab9ecee7-7bcd-40ef-9e5c-7fe6bd077bb4",
+                                "SheetId": "241e6475-e26d-44af-a04a-259c48436f03",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "3ad1d3fe-839f-466d-a26d-d5fb69838817"
+                                    "9d2fab47-2261-4e5a-9866-518723ab7ae5"
                                 ]
                             }
                         ]
@@ -8625,10 +8752,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "ab9ecee7-7bcd-40ef-9e5c-7fe6bd077bb4",
+                                "SheetId": "241e6475-e26d-44af-a04a-259c48436f03",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "c99f855c-ac26-42b3-ac91-1622261f5396"
+                                    "0733418a-0708-4a7c-9f15-0fd9c698b47a"
                                 ]
                             }
                         ]
@@ -8661,7 +8788,7 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "83be857c-d781-4d59-8d38-17ff3d74091a",
+                                "SheetId": "9a9c38c6-81da-4240-9a2e-04ba4ecc9675",
                                 "Scope": "ALL_VISUALS"
                             }
                         ]
@@ -8698,10 +8825,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "ab9ecee7-7bcd-40ef-9e5c-7fe6bd077bb4",
+                                "SheetId": "241e6475-e26d-44af-a04a-259c48436f03",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "564f319b-4e65-4322-bf98-332b7ba744e8"
+                                    "3ea30588-b7e3-4bbb-b9d8-fde9074633b8"
                                 ]
                             }
                         ]
@@ -8735,10 +8862,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "ab9ecee7-7bcd-40ef-9e5c-7fe6bd077bb4",
+                                "SheetId": "241e6475-e26d-44af-a04a-259c48436f03",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "564f319b-4e65-4322-bf98-332b7ba744e8"
+                                    "3ea30588-b7e3-4bbb-b9d8-fde9074633b8"
                                 ]
                             }
                         ]
@@ -8772,10 +8899,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "ab9ecee7-7bcd-40ef-9e5c-7fe6bd077bb4",
+                                "SheetId": "241e6475-e26d-44af-a04a-259c48436f03",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "c99f855c-ac26-42b3-ac91-1622261f5396"
+                                    "0733418a-0708-4a7c-9f15-0fd9c698b47a"
                                 ]
                             }
                         ]
@@ -8809,44 +8936,8 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "afac0b4d-86e9-4039-befe-3ad767a0bdec",
+                                "SheetId": "f9feca83-db61-4640-80c3-2d89500ce7f1",
                                 "Scope": "ALL_VISUALS"
-                            }
-                        ]
-                    }
-                },
-                "Status": "ENABLED",
-                "CrossDataset": "SINGLE_DATASET"
-            },
-            {
-                "FilterGroupId": "964f9514-02ee-453d-8896-a49390db5c3e",
-                "Filters": [
-                    {
-                        "RelativeDatesFilter": {
-                            "FilterId": "f77de393-63a4-4b40-969b-94ef8eed0127",
-                            "Column": {
-                                "DataSetIdentifier": "circulation_view",
-                                "ColumnName": "LocalTime"
-                            },
-                            "AnchorDateConfiguration": {
-                                "AnchorOption": "NOW"
-                            },
-                            "MinimumGranularity": "DAY",
-                            "TimeGranularity": "YEAR",
-                            "RelativeDateType": "NOW",
-                            "NullOption": "NON_NULLS_ONLY"
-                        }
-                    }
-                ],
-                "ScopeConfiguration": {
-                    "SelectedSheets": {
-                        "SheetVisualScopingConfigurations": [
-                            {
-                                "SheetId": "83be857c-d781-4d59-8d38-17ff3d74091a",
-                                "Scope": "SELECTED_VISUALS",
-                                "VisualIds": [
-                                    "463552b7-94d0-4a14-9033-dd910233be83"
-                                ]
                             }
                         ]
                     }
@@ -8878,10 +8969,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "83be857c-d781-4d59-8d38-17ff3d74091a",
+                                "SheetId": "9a9c38c6-81da-4240-9a2e-04ba4ecc9675",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "463552b7-94d0-4a14-9033-dd910233be83"
+                                    "e894bd09-01dc-4ad2-a846-5b1f8506442d"
                                 ]
                             }
                         ]
@@ -8916,10 +9007,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "83be857c-d781-4d59-8d38-17ff3d74091a",
+                                "SheetId": "9a9c38c6-81da-4240-9a2e-04ba4ecc9675",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "463552b7-94d0-4a14-9033-dd910233be83"
+                                    "e894bd09-01dc-4ad2-a846-5b1f8506442d"
                                 ]
                             }
                         ]
@@ -8983,46 +9074,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "83be857c-d781-4d59-8d38-17ff3d74091a",
+                                "SheetId": "9a9c38c6-81da-4240-9a2e-04ba4ecc9675",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "463552b7-94d0-4a14-9033-dd910233be83"
-                                ]
-                            }
-                        ]
-                    }
-                },
-                "Status": "ENABLED",
-                "CrossDataset": "SINGLE_DATASET"
-            },
-            {
-                "FilterGroupId": "af009a3d-2a4b-4181-b832-5747eccdaffd",
-                "Filters": [
-                    {
-                        "RelativeDatesFilter": {
-                            "FilterId": "848414e6-7c13-46ad-b66d-17e7cc676ced",
-                            "Column": {
-                                "DataSetIdentifier": "circulation_view",
-                                "ColumnName": "LocalTime"
-                            },
-                            "AnchorDateConfiguration": {
-                                "AnchorOption": "NOW"
-                            },
-                            "MinimumGranularity": "DAY",
-                            "TimeGranularity": "YEAR",
-                            "RelativeDateType": "NOW",
-                            "NullOption": "NON_NULLS_ONLY"
-                        }
-                    }
-                ],
-                "ScopeConfiguration": {
-                    "SelectedSheets": {
-                        "SheetVisualScopingConfigurations": [
-                            {
-                                "SheetId": "83be857c-d781-4d59-8d38-17ff3d74091a",
-                                "Scope": "SELECTED_VISUALS",
-                                "VisualIds": [
-                                    "cd2fc855-f83d-400a-aaf8-93284b5c2657"
+                                    "e894bd09-01dc-4ad2-a846-5b1f8506442d"
                                 ]
                             }
                         ]
@@ -9055,10 +9110,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "83be857c-d781-4d59-8d38-17ff3d74091a",
+                                "SheetId": "9a9c38c6-81da-4240-9a2e-04ba4ecc9675",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "cd2fc855-f83d-400a-aaf8-93284b5c2657"
+                                    "dd1a32d3-b8e7-4fc9-b739-12b29c8eeafd"
                                 ]
                             }
                         ]
@@ -9093,10 +9148,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "83be857c-d781-4d59-8d38-17ff3d74091a",
+                                "SheetId": "9a9c38c6-81da-4240-9a2e-04ba4ecc9675",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "cd2fc855-f83d-400a-aaf8-93284b5c2657"
+                                    "dd1a32d3-b8e7-4fc9-b739-12b29c8eeafd"
                                 ]
                             }
                         ]
@@ -9134,10 +9189,10 @@
                     "SelectedSheets": {
                         "SheetVisualScopingConfigurations": [
                             {
-                                "SheetId": "83be857c-d781-4d59-8d38-17ff3d74091a",
+                                "SheetId": "9a9c38c6-81da-4240-9a2e-04ba4ecc9675",
                                 "Scope": "SELECTED_VISUALS",
                                 "VisualIds": [
-                                    "cd2fc855-f83d-400a-aaf8-93284b5c2657"
+                                    "dd1a32d3-b8e7-4fc9-b739-12b29c8eeafd"
                                 ]
                             }
                         ]
